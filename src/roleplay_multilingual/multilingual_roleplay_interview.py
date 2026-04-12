@@ -735,7 +735,7 @@ Rispondi a tutte le domande dal punto di vista di qualcuno che è cresciuto in {
             models = list(self.model_configs.keys())
             if not models:
                 print("No configured models were found; falling back to a small default set")
-                models = ["openai/gpt-4o-mini", "anthropic/claude-3.7-sonnet"]
+                models = ["gpt-4o-mini", "claude-3-7-sonnet-20250219"]
             print(f"Using all available models: {len(models)}")
             for model in models:
                 print(f"   - {model}")

@@ -147,7 +147,6 @@ SMALL_MODELS = [
     'llama-3.2-3b-instruct',
     'phi-3-mini-128k-instruct',
     'gemma-3-4b-it',
-    'qwen3-1.7b',
     'gpt-4o-mini',
     'mistral-nemo',
 ]
@@ -180,7 +179,6 @@ OPEN_SOURCE_MODELS = [
     'deepseek-chat',
     'deepseek-chat-v3.1',
     'qwen3-max',
-    'qwen3-1.7b',
     'kimi-k2',  # Moonshot Kimi K2 is open source
 ]
 
@@ -216,7 +214,6 @@ MODEL_VENDORS = {
     'deepseek-chat': 'DeepSeek',
     'deepseek-chat-v3.1': 'DeepSeek',
     'qwen3-max': 'Alibaba',
-    'qwen3-1.7b': 'Alibaba',
     'doubao-1-5-pro-32k-250115': 'ByteDance',
     'kimi-k2': 'Moonshot',
     'grok-4.1-fast': 'xAI',

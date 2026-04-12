@@ -20,6 +20,7 @@ Outputs:
     results/analysis/study3_digital_orientalism.json
     results/analysis/study4_colonial_legacies.json
     results/analysis/regression_data_v5.csv
+    results/paper_data/regression_data.csv
     results/analysis/paper_statistics_all.json
 """
 
@@ -62,13 +63,11 @@ MODEL_NAME_MAP = {
     "mistralai/mistral-nemo": "mistral-nemo",
     "openai/gpt-5.1": "gpt-5.1",
     "qwen/qwen3-max": "qwen3-max",
-    "qwen/qwq-32b": "qwq-32b",
     "x-ai/grok-4.1-fast": "grok-4.1-fast",
-    "z-ai/glm-4.6": "glm-4.6",
 }
 
-# Models excluded from Study 2-4 (roleplay): only French data, no en/native
-EXCLUDED_ROLEPLAY = {"qwen3-1.7b", "glm-4.6", "qwq-32b"}
+# The released paper dataset already contains the final 20-model roleplay sample.
+EXCLUDED_ROLEPLAY = set()
 
 # English-native countries (excluded from English-advantage calculation)
 # Hong Kong excluded: native language is zh-hk (Cantonese), not English
@@ -91,8 +90,7 @@ MODEL_ORIGIN = {
     "grok-4.1-fast": "US", "phi-3-mini-128k-instruct": "US",
     "deepseek-chat": "China", "deepseek-chat-v3.1": "China",
     "doubao-1-5-pro-32k-250115": "China", "kimi-k2": "China",
-    "qwen3-max": "China", "qwen3-1.7b": "China",
-    "qwq-32b": "China", "glm-4.6": "China",
+    "qwen3-max": "China",
     "mistral-medium-3.1": "Europe", "mistral-nemo": "Europe",
 }
 

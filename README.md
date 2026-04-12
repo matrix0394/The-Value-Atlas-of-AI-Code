@@ -36,27 +36,22 @@ At a high level, the project combines three pieces:
 
 For most readers and reviewers, the recommended path is to reproduce the paper
 from the released processed data rather than rebuild the full pipeline from raw
-survey files or private API-response caches.
+survey files or private API-response caches. The shortest public workflow is:
 
-1. Download the Dryad package for the paper.
-2. Copy the Dryad contents into the root of this repository, preserving the
-   relative paths.
-3. Install dependencies:
+1. Download the Dryad package and extract it.
+2. Copy the unpacked `data/`, `results/`, and `Supplementary Materials/`
+   directories into the root of this repository so that they merge with the
+   placeholder directories already present here.
+3. Install the Python dependencies listed in `requirements.txt` (or
+   `requirements.lock.txt` if you want the closest match to the tested
+   environment).
+4. Run `python src/run/run_paper_analysis.py` to regenerate the paper-level
+   analysis tables.
+5. Run the figure scripts in `src/figures/` only if you want to regenerate the
+   released main-text or supplementary figures.
 
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the paper-level analysis:
-
-```bash
-python src/run/run_paper_analysis.py
-```
-
-This regenerates the paper-level outputs in:
-
-- `results/analysis/`
-- `results/paper_data/`
+This path does not require rerunning private API calls or rebuilding the IVS
+benchmark from the raw survey file.
 
 ## Workflow Overview
 
@@ -114,9 +109,94 @@ incidental comments.
 - Standard scientific Python stack as listed in `requirements.txt`
 - No GPU is required for the released processed-data reproduction path
 - Private reruns of model calls require API credentials in `.env`
+- Tested in the project development environment on macOS `15.6.1`
+- The released processed-data workflow is intended to run on a standard
+  workstation or laptop
 
-The released reproduction path is intended to run on a standard workstation or
-laptop.
+Installation of the Python dependencies typically takes only a few minutes on a
+standard machine. Runtime depends on whether you use the released processed
+data or rerun private model calls.
+
+For reproducibility, two dependency files are provided:
+
+- `requirements.txt` lists the minimum supported package versions.
+- `requirements.lock.txt` records the exact package versions used in the
+  tested development environment.
+
+If you need the closest possible match to the tested environment, install from
+`requirements.lock.txt`. Using newer package versions may still work, but can
+introduce small numerical differences in projected coordinates and figure
+rendering.
+
+## API Credentials
+
+The public processed-data reproduction path does not require any API keys.
+Private reruns of model calls do.
+
+To configure API access:
+
+1. Copy `.env.example` to `.env`.
+2. Fill in the two key variables used by the released model registry:
+   - `OPENKEY_API_KEY`
+   - `OPENROUTER_API_KEY`
+
+These variable names come directly from `config/models/llm_models.json`.
+The released configuration uses OpenKey and OpenRouter for unified access
+across providers. If you prefer official provider endpoints, you can edit the
+model-specific `base_url` and credential fields in
+`config/models/llm_models.json`.
+
+## Cost And Runtime Notes
+
+The released processed-data path does not incur API cost.
+
+Private reruns of the full model-interview pipelines can be substantially more
+time-consuming and expensive. A full rerun spans 20 models, 66 countries and
+territories, 14 released prompt languages, and 10 IVS/WVS-derived items. The
+exact monetary cost depends on provider pricing, enabled models, request
+concurrency, and rate limits at the time of execution, so we have not included
+a single stable USD estimate in this public README.
+
+## Generation Settings And Stochasticity
+
+The public reproduction path relies on the released processed interview tables
+and projected coordinates, not on byte-identical API reruns.
+
+In the released code, model calls preserve the study rerun setting
+(`temperature = 0.1` in `src/base/base_interview.py`) to reduce stochastic
+variation while matching the configuration used during the project. The code
+does not currently set a provider-level `seed`, so exact API outputs may still
+vary across providers and over time. Downstream PCA reconstruction uses a
+fixed NumPy seed (`np.random.seed(42)` in `src/base/base_pca_analyzer.py`)
+where randomized numerical routines are used.
+
+## Expected Outputs
+
+Running
+
+```bash
+python src/run/run_paper_analysis.py
+```
+
+produces the main paper-level outputs in:
+
+- `results/analysis/`
+- `results/paper_data/`
+
+Key files include:
+
+- `results/analysis/study1_intrinsic_bias.json`
+- `results/analysis/study2_english_advantage.json`
+- `results/analysis/study3_digital_orientalism.json`
+- `results/analysis/study4_colonial_legacies.json`
+- `results/analysis/model_imitation_accuracy.csv`
+- `results/analysis/paper_statistics_all.json`
+- `results/paper_data/regression_data.csv`
+
+The figure scripts in `src/figures/` write rendered outputs to:
+
+- `results/figures/paper/`
+- `Supplementary Materials/figures/`
 
 ## Repository Layout
 
@@ -178,8 +258,16 @@ survey file. The benchmark code accepts either:
 - `data/country_values/Integrated_values_surveys_1981-2022.sav`
 - `data/raw/Integrated_values_surveys_1981-2022.sav`
 
-The raw IVS/WVS/EVS source file is not redistributed in this repository or in
-the public Dryad package.
+The raw benchmark source is not redistributed in this repository or in the
+public Dryad package. In the original project, this `.sav` file was derived
+from the Integrated Values Survey (IVS), constructed by merging:
+
+- the EVS Trend File 1981-2017, Version `3.0.0` (DOI: `10.4232/1.14021`)
+- the WVS Trend File 1981-2022, Version `4.1.0` (DOI: `10.14281/18241.27`)
+
+If you want to rebuild the benchmark from raw survey data, please obtain those
+official source files directly from the EVS/WVS providers and recreate the
+merged IVS input used by the benchmark pipeline.
 
 ## Minimal Data Needed To Reproduce The Paper
 
@@ -301,6 +389,10 @@ Required raw input:
 
 - `data/country_values/Integrated_values_surveys_1981-2022.sav`
   or `data/raw/Integrated_values_surveys_1981-2022.sav`
+
+This input corresponds to the IVS benchmark derived from the EVS Trend File
+1981-2017 (Version `3.0.0`; DOI `10.4232/1.14021`) and the WVS Trend File
+1981-2022 (Version `4.1.0`; DOI `10.14281/18241.27`).
 
 Outputs:
 
@@ -436,6 +528,10 @@ This module handles:
 - retry logic for malformed or incomplete answers
 - raw-answer collection during private data collection
 
+During private reruns, failed or malformed model responses are retried
+automatically. If retries are exhausted, the error is reported in the console
+output and the corresponding pipeline step stops with an exception.
+
 ### `src/base/ivs_question_processor.py`
 
 This module handles:
@@ -452,12 +548,20 @@ released tables enter the downstream analyses in a common format.
 ## Figure Reproduction
 
 This repository includes direct rendering scripts for Main Text Figure 2 and
-Supplementary Figures S2-S5. Supplementary Figure S1 is not regenerated by a
-standalone script in this cleaned public repository.
+Supplementary Figures S2-S5. Main Text Figures 1, 3, and 4, together with
+Supplementary Figure S1, are backed by released source tables but are not
+currently regenerated by standalone scripts in this cleaned public repository.
+For those figures, the final manuscript layouts were assembled outside the
+cleaned public code release; no additional statistical computation beyond the
+released source tables is introduced in those final assemblies.
 
 | Figure | Script | Main released source data | Output location |
 | --- | --- | --- | --- |
+| Main Text Figure 1 | Released source data only; no standalone public renderer | `Supplementary Materials/data/figure1_data_66countries.csv` | Final manuscript assembly |
 | Main Text Figure 2 | `python src/figures/generate_fig2_baseline.py` | `Supplementary Materials/data/figure2_baseline_20models.csv`, `Supplementary Materials/data/DataS1_ivs_pca_coordinates.csv` | `results/figures/paper/` |
+| Main Text Figure 3 | Released source data only; no standalone public renderer | `Supplementary Materials/data/figure3_digital_orientalism.csv`, `Supplementary Materials/data/study3_digital_orientalism.json` | Final manuscript assembly |
+| Main Text Figure 4 | Released source data only; no standalone public renderer | `Supplementary Materials/data/figure4_colonial_history.csv`, `Supplementary Materials/data/study4_colonial_legacies.json` | Final manuscript assembly |
+| Supplementary Figure S1 | Released source data only; final figure assembled manually during manuscript preparation | `Supplementary Materials/data/DataS2_llm_baseline_pca.csv` | Final manuscript assembly |
 | Supplementary Figure S2 | `python src/figures/generate_figS2_model_imitation.py` | `Supplementary Materials/data/model_imitation_accuracy.csv`, `Supplementary Materials/data/study5_model_imitation.json` | `Supplementary Materials/figures/FigS2/` |
 | Supplementary Figure S3 | `python src/figures/generate_figS3_ivs_cultural_map.py` | `Supplementary Materials/data/DataS1_ivs_pca_coordinates.csv` or `Supplementary Materials/data/ivs_pca_coordinates.csv` | `Supplementary Materials/figures/FigS3/` |
 | Supplementary Figure S4 | `python src/figures/generate_figS4_english_advantage.py` | `Supplementary Materials/data/figure3_digital_orientalism.csv`, `Supplementary Materials/data/study3_digital_orientalism.json` | `Supplementary Materials/figures/FigS4/` |
