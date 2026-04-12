@@ -480,10 +480,10 @@ referenced in `config/models/llm_models.json`.
 
 ## License
 
-The final public release should include explicit code and data licenses in the
-GitHub and Dryad records. In the current submission-stage repository, please
-interpret this codebase as the research software accompanying the manuscript
-and the released processed-data archive.
+The code in this repository is released under the MIT License. This license
+applies to the software and documentation in the GitHub repository only. The
+processed data released through Dryad should be interpreted according to the
+terms of the Dryad record and the associated manuscript.
 
 ## Citation
 
