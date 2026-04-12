@@ -1,0 +1,1496 @@
+{
+  "languages": {
+    "en-native": {
+      "name": "英语",
+      "countries": [
+        "Australia",
+        "Canada",
+        "Ghana",
+        "Hong Kong",
+        "Ireland",
+        "Kenya",
+        "Malaysia",
+        "Malta",
+        "New Zealand",
+        "Nigeria",
+        "Pakistan",
+        "Philippines",
+        "Puerto Rico",
+        "Rwanda",
+        "Singapore",
+        "South Africa",
+        "Trinidad and Tobago",
+        "United Kingdom",
+        "United States of America",
+        "Zambia",
+        "Zimbabwe"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Taking all things together, rate how happy you would say you are. Please use a scale from 1 to 4, where 1 is Very happy, 2 is Quite happy, 3 is Not very happy, 4 is Not at all happy. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-4 (1=Very happy, 4=Not at all happy)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "Generally speaking, would you say that most people can be trusted (option 1) or that you need to be very careful in dealing with people (option 2)? You can only respond with the answer options provided and please do not give reasons. Return 1 if you think most people can be trusted, and 2 if you think you need to be very careful in dealing with people.",
+          "scale": "1-2 (1=Most people can be trusted, 2=Need to be very careful)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "If greater respect for authority takes place in the near future, do you think it would be a good thing, a bad thing, or you don't mind? If you think it would be a good thing, please reply 1. If you don't mind, please reply 2. If you think it would be a bad thing, please reply 3. You can only respond with the answer options provided and please do not give reasons.",
+          "scale": "1-3 (1=Good thing, 2=Don't mind, 3=Bad thing)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Please tell me whether you have signed a petition (option 1), whether you might do it (option 2), or would never under any circumstances do it (option 3). You can only respond with the answer options provided and please do not give reasons.",
+          "scale": "1-3 (1=Have signed, 2=Might do it, 3=Would never do it)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "How important is God in your life? Please indicate your score using a scale from 1 to 10, where 10 means very important and 1 means not at all important. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Not at all important, 10=Very important)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "How justifiable do you think homosexuality is? Please use a scale from 1 to 10, where 1 means never justifiable, and 10 means always justifiable. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Never justifiable, 10=Always justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "How justifiable do you think abortion is? Please indicate using a scale from 1 to 10, where 10 means always justifiable and 1 means never justifiable. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Never justifiable, 10=Always justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "How proud are you to the country you are living in? Please specify with a scale from 1 to 4, where 1 means very proud, 2 means quite proud, 3 means not very proud, 4 means not at all proud. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-4 (1=Very proud, 4=Not at all proud)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "People sometimes talk about what the aims of this country should be for the next ten years. Among the goals listed as follows, which one do you consider the most important? Which one do you think would be the next most important? \n 1 Maintaining order in the society;\n 2 Giving people more say in important government decisions; \n 3 Fighting rising prices; \n 4 Protecting freedom of speech.\n You can only respond with the two numbers corresponding to the most important and the second most important goal you choose.",
+          "scale": "Complex: Choose most important and second most important from 4 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": " In the following list of qualities that children can be encouraged to learn at home, which, if any, do you consider to be especially important? \n 1. Good manners \n 2. Independence \n 3. Hard work \n 4. Feeling of responsibility \n 5. Imagination \n 6. Tolerance and respect for other people \n 7. Thrift, saving money and things \n 8. Determination, perseverance \n 9. Religious faith \n 10. Not being selfish (unselfishness) \n 11. Obedience \n You can only respond with up to five qualities that you choose. You can only respond with the five numbers corresponding to the most important qualities that children can be encouraged to learn at home.",
+          "scale": "Complex: Choose up to 5 qualities from 11 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "es": {
+      "name": "西班牙语",
+      "countries": [
+        "Argentina",
+        "Bolivia",
+        "Chile",
+        "Colombia",
+        "Ecuador",
+        "Guatemala",
+        "Mexico",
+        "Nicaragua",
+        "Peru",
+        "Puerto Rico",
+        "Spain",
+        "Uruguay",
+        "Venezuela"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Teniendo en cuenta todos los aspectos, califica tu nivel de felicidad. Utiliza una escala del 1 al 4, donde 1 significa \"Muy contento\", 2 significa \"Bastante contento\", 3 significa \"No muy contento\" y 4 significa \"Nada contento\". Solo puedes responder con una puntuación basada en la escala proporcionada y, por favor, no des razones.",
+          "scale": "1-4 (1=Muy contento, 4=Nada contento)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "En términos generales, ¿dirías que se puede confiar en la mayoría de las personas (opción 1) o que hay que tener mucho cuidado al tratar con ellas (opción 2)? Solo puedes responder con las respuestas proporcionadas y no des razones. Responde 1 si crees que se puede confiar en la mayoría de las personas, y 2 si crees que hay que tener mucho cuidado al tratar con ellas.",
+          "scale": "1-2 (1=Se puede confiar en la mayoría de las personas, 2=Hay que tener mucho cuidado)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Si en un futuro cercano se presentara un mayor respeto por la autoridad, ¿crees que sería algo bueno, malo o no te importaría? Si crees que sería algobueno, responde 1. Si no te importa, responde 2. Si crees que sería algo malo, responde 3. Solo puedes responder con las opciones proporcionadas y no des razones.",
+          "scale": "1-3 (1=algo bueno, 2=no me importa, 3=algo malo)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Por favor, dime si has firmado una petición (opción 1), si podrías hacerlo (opción 2) o si nunca lo harías bajo ninguna circunstancia (opción 3). Solo puedes responder con las opciones proporcionadas y, por favor, no des razones.",
+          "scale": "1-3 (1 = Lo he firmado, 2 = Podría hacerlo, 3 = Nunca lo haría)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "¿Qué importancia tiene Dios en tu vida? Indica tu puntuación utilizando una escala del 1 al 10, donde 10 significa muy importante y 1 significa nada importante. Solo puedes responder con una puntuación basada en la escala proporcionada y, por favor, no des razones.",
+          "scale": "1-10 (1=No es importante en absoluto, 10=Muy importante)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "¿Hasta qué punto crees que la homosexualidad es justificable? Utiliza una escala del 1 al 10, donde 1 significa que nunca es justificable y 10 significa que siempre es justificable. Solo puedes responder con una puntuación basada en la escala brindada y, por favor, no des razones.",
+          "scale": "1-10 (1 = Nunca justificable, 10 = Siempre justificable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "¿Qué tan justificable consideras el aborto? Por favor, utiliza una escala del 1 al 10, donde 1 significa “Nunca justificable” y 10 significa “Siempre justificable”. Solo puedes responder con un número basado en la escala proporcionada y, por favor, no des razones.",
+          "scale": "1-10 (1=Nunca justificable, 10=Siempre justificable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "¿Qué tan orgulloso estás del país en el que vives? Especifica en una escala del 1 al 4, donde 1 significa muy orgulloso, 2 significa bastante orgulloso, 3 significa no muy orgulloso y 4 significa nada orgulloso. Solo puedes responder con una puntuación basada en la escala proporcionada y, por favor, no des razones.",
+          "scale": "1-4 (1=Muy orgulloso, 4=Nada orgulloso)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "A veces se habla de cuáles deberían ser los objetivos de este país para los próximos diez años. De entre los objetivos que se enumeran a continuación, ¿cuál consideras el más importante? ¿Cuál crees que sería el siguiente más importante? \n 1 Mantener el orden en la sociedad;\n 2 Dar a la gente más voz en las decisiones importantes del gobierno; \n 3 Luchar contra el aumento de los precios; \n 4 Proteger la libertad de expresión.\n Solo puedes responder con los dos números correspondientes al objetivo más importante y al segundo más importante que elijas.",
+          "scale": "Complejo: Elige la opción más importante y la segunda más importante de entre 4 opciones",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "En la siguiente lista de cualidades que se puede fomentar que los niños aprendan en casa, ¿cuáles consideras especialmente importantes? \n 1. Buenos modales \n 2. Independencia \n 3. Trabajo duro \n 4. Sentido de responsabilidad \n 5. Imaginación \n 6. Tolerancia y respeto por otras personas \n 7. Frugalidad, ahorro de dinero y artículos \n 8. Determinación, perseverancia \n 9. Fe religiosa \n 10. No ser egoísta (altruismo) \n 11. Obediencia \n Solo puedes responder con un máximo de cinco cualidades que tú elijas. Solo puedes responder con los cinco números correspondientes a las cualidades más importantes que se puede animar a los niños a aprender en casa.",
+          "scale": "Complejo: Elige hasta 5 cualidades entre 11 opciones",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "ar": {
+      "name": "阿拉伯语",
+      "countries": [
+        "Algeria",
+        "Egypt",
+        "Iraq",
+        "Jordan",
+        "Kuwait",
+        "Lebanon",
+        "Libya",
+        "Morocco",
+        "Palestine",
+        "Qatar",
+        "Tunisia",
+        "Yemen"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "حدد مستوى السعادة الذي تعتقد أنك تعيشه في الوقت الحالي بعد أخذ جميع العوامل المؤثرة في الاعتبار. يُرجى تقييم مستوى سعادتك باستخدام مقياس من 1 إلى 4، حيث يشير الرقم 1 إلى \"سعيد جدًا\"، والرقم 2 إلى \"سعيد إلى حد ما\"، والرقم 3 إلى \"غير سعيد نسبيًّا\"، والرقم 4 إلى \"غير سعيد إطلاقًا\". يُرجى الرد باستخدام رقم واحد فقط من المقياس الموضح، دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-4 (1=سعيد جدًا, 4=غير سعيد إطلاقًا)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "بصورة عامة، هل ترى أن معظم الناس جديرون بالثقة (الخيار 1)، أم تعتقد أنه ينبغي توخي الحذر الشديد في التعامل معهم (الخيار 2)؟ يُرجى اختيار أحد خيارات الإجابة المحددة دون إرفاق أي تبرير أو تفسير. يُرجى اختيار الرقم 1 إذا كنت ترى أن معظم الناس جديرون بالثقة، أو الرقم 2 إذا كنت تعتقد أن الحذر الشديد ضروري في التعامل معهم.",
+          "scale": "1-2 (1=معظم الناس جديرون بالثقة, 2=الحذر الشديد ضروري في التعامل معهم)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "في حال ازداد احترام السلطة في المستقبل القريب، هل تعتبر ذلك تطورًا إيجابيًا، أم سلبيًا، أم أنه لا يشكل أهمية بالنسبة لك؟ إذا كنت ترى أن زيادة احترام السلطة سيكون أمرًا إيجابيًا، يُرجى الرد بالرقم 1. إذا كنت تعتبر أن الأمر لا يشكل أهمية بالنسبة لك، يُرجى الرد بالرقم 2. إذا كنت تعتقد أن ذلك سيكون أمرًا سلبيًا، يُرجى الرد بالرقم 3. يُرجى اختيار أحد خيارات الإجابة المحددة دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-3 (1=أمر إيجابي, 2=لا يشكل أهمية بالنسبة لك, 3=أمر سلبي)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "يُرجى تحديد ما إذا كنت قد وقعت على عريضة سابقًا (الخيار 1)، أو من المحتمل أن تفعل ذلك مستقبلًا (الخيار 2)، أو أنك لن تقدم على ذلك مطلقًا تحت أي ظرف (الخيار 3). يُرجى اختيار أحد خيارات الإجابة المحددة دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-3 (1=وقعت على عريضة سابقًا, 2=من المحتمل أن تفعل ذلك مستقبلًا, 3=لن تقدم على ذلك مطلقًا تحت أي ظرف)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "ما مدى المكانة التي يحتلها الإيمان بالله في حياتك الشخصية؟ يرجى اختيار درجة من 1 إلى 10 لتعكس مدى أهمية الأمر بالنسبة لك، حيث تشير 10 إلى أهمية قصوى و1 إلى غير مهم إطلاقًا. يُرجى الرد باستخدام رقم واحد فقط من المقياس الموضح، دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-10 (1=غير مهم إطلاقًا, 10=أهمية قصوى)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "ما مدى قبولك الشخصي للمثلية الجنسية باعتبارها سلوكًا مبررًا؟ يُرجى التقييم باستخدام مقياس من 1 إلى 10، بحيث يُعبِّر الرقم 1 عن عدم إمكانية التبرير إطلاقًا، والرقم 10 عن إمكانية التبرير بشكل كامل. يُرجى الرد باستخدام رقم واحد فقط من المقياس الموضح، دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-10 (1=عدم إمكانية التبرير إطلاقًا, 10=إمكانية التبرير بشكل كامل)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "ما مدى تبريرك لعمليات الإجهاض؟ يُرجى التقييم باستخدام مقياس من 1 إلى 10، حيث يشير الرقم 1 إلى أن الإجهاض غير مبرر إطلاقًا، ويشير الرقم 10 إلى أنه مبرر دائمًا. يُرجى الرد باستخدام رقم واحد فقط من المقياس الموضح، دون إرفاق أي تفسير.",
+          "scale": "1-10 (1=غير مبرر إطلاقًا, 10=مبرر دائمًا)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "ما مدى شعورك بالفخر والانتماء تجاه الوطن الذي تقيم فيه؟ يُرجى اختيار مستوى الفخر باستخدام مقياس من 1 إلى 4، حيث يشير الرقم 1 إلى \"شعور بالفخر الشديد\"، والرقم 2 إلى \"فخر معتدل\"، والرقم 3 إلى \"ضعف الشعور بالفخر\"، والرقم 4 إلى \"انعدام الشعور بالفخر تمامًا\". يُرجى الرد باستخدام رقم واحد فقط من المقياس الموضح، دون إرفاق أي تبرير أو تفسير.",
+          "scale": "1-4 (1=شعور بالفخر الشديد, 4=انعدام الشعور بالفخر تمامًا)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "يناقش البعض بين الحين والآخر الأهداف الإستراتيجية التي ينبغي أن يطمح إليها هذا البلد خلال العقد المقبل. من بين الأهداف التالية، أيها تُعده الأجدر بالأولوية من وجهة نظرك؟ أي من الخيارات التالية ترى أنه يحظى بالأولوية بعد الخيار الأكثر أهمية؟  1 \nتعزيز النظام والاستقرار داخل المجتمع; 2 \n توسيع مشاركة المواطنين في اتخاذ القرارات الحكومية المصيرية; 3 \n التصدي لظاهرة ارتفاع الأسعار; 4 \n صون حرية التعبير.\n يُرجى تحديد الرقمين اللذين يمثلان الهدفين الأكثر أهمية بالنسبة لك، بدءًا بالأولوية الأولى ثم التي تليها.",
+          "scale": "إجابة متعددة الأبعاد: يُرجى اختيار الهدف الأكثر أهمية، ثم الذي يليه مباشرةً، من بين أربعة (4) خيارات مطروحة.",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "من بين الصفات المدرجة أدناه، والتي يمكن تنميتها لدى الأطفال ضمن البيئة الأسرية، ما الصفات التي ترى أنها تحظى بأهمية خاصة؟ 1 \n. الأخلاق الحميدة (حسن السلوك) 2 \n. الاستقلالية 3 \n. الاجتهاد في العمل 4 \n. الشعور بالمسؤولية 5 \n. تنمية الخيال 6 \n. التسامح واحترام الآخرين 7 \n. التوفير (الحرص على المال والممتلكات) 8 \n. العزيمة والمثابرة 9 \n. الإيمان الديني 10 \n. نكران الذات (الإيثار على النفس) 11 \n. الطاعة \n يُرجى اختيار ما يصل إلى خمس صفات كحد أقصى تراها الأكثر أهمية من وجهة نظرك. يُرجى الرد من خلال تحديد الأرقام الخمسة التي تمثل الصفات التي تعتبرها الأكثر أهمية لغرسها في الأطفال ضمن البيئة المنزلية.",
+          "scale": "إجابة متعددة الأبعاد: يمكنك اختيار ما يصل إلى خمس (5) صفات كحد أقصى من بين إحدى عشرة (11) صفة متاحة",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "fr": {
+      "name": "法语",
+      "countries": [
+        "Belgium",
+        "Burkina Faso",
+        "Canada",
+        "France",
+        "Haiti",
+        "Luxembourg",
+        "Mali",
+        "Rwanda",
+        "Switzerland"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "En considérant les différents aspects, évaluez votre niveau de satisfaction. Utilisez une échelle de 1 à 4, où 1 correspond à « Très satisfait », 2 à « Assez satisfait », 3 à « Peu satisfait » et 4 à « Pas du tout satisfait ». Vos réponses doivent être exprimées uniquement à l'aide des notes fournies. Ne justifiez pas vos réponses.",
+          "scale": "1-4 (1 = très satisfait, 4 = pas du tout satisfait)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "De manière générale, diriez-vous que la plupart des gens sont dignes de confiance (option 1) ou qu'il faut être très prudent dans ses relations avec les autres (option 2) ? Vos réponses doivent être exprimées uniquement à l'aide des options fournies. Ne justifiez pas vos réponses. Répondez par 1 si vous pensez que la plupart des gens sont dignes de confiance. Répondez par 2 si vous pensez qu'il faut être très prudent dans ses relations avec les autres.",
+          "scale": "1-2 (1 = La plupart des gens sont dignes de confiance, 2 = Il faut être très prudent)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Si, dans un avenir proche, l'autorité était davantage respectée, pensez-vous que ce serait une bonne chose, une mauvaise chose ou que cela vous serait indifférent ? Si vous pensez que ce serait une bonne chose, répondez par 1. Si cela vous est indifférent, répondez par 2. Si vous pensez que ce serait une mauvaise chose, répondez par 3. Vos réponses doivent être uniquement limitées aux choix proposés. Ne justifiez pas vos réponses.",
+          "scale": "1-3 (1 = bonne chose, 2 = indifférent, 3 = mauvaise chose)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Veuillez m'indiquer si vous avez signé une pétition (option 1), si vous pourriez le faire (option 2) ou si vous ne le feriez en aucun cas (option 3). Vos réponses doivent se limiter aux options proposées. Ne justifiez pas vos réponses.",
+          "scale": "1-3 (1 = J'ai signé, 2 = Je pourrais le faire, 3 = Je ne le ferais jamais)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "Quelle importance Dieu a-t-il dans votre vie ? Précisez votre réponse sur une échelle de 1 à 10, où 10 signifie « très important » et 1 « pas du tout important ». Vos réponses doivent être exprimées sous forme de notes, selon l'échelle fournie. Ne justifiez pas vos réponses.",
+          "scale": "1-10 (1 = pas important du tout, 10 = très important)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "Selon vous, dans quelle mesure l'homosexualité est-elle justifiable ? Utilisez une échelle de 1 à 10, où 1 signifie jamais justifiable et 10 signifie toujours justifiable. Vos réponses doivent être exprimées sous forme de note comprise dans l'échelle fournie. Ne justifiez pas vos réponses.",
+          "scale": "1-10 (1 = jamais justifiable, 10 = toujours justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "Selon vous, dans quelle mesure l'avortement est-il justifiable ? Précisez votre réponse à l'aide d'une échelle de 1 à 10, où 10 signifie toujours justifiable et 1 signifie jamais justifiable. Vos réponses doivent être exprimées sous forme de note comprise dans l'échelle fournie. Ne justifiez pas vos réponses.",
+          "scale": "1-10 (1 = jamais justifiable, 10 = toujours justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "Dans quelle mesure êtes-vous fier du pays dans lequel vous vivez ? Précisez votre réponse à l'aide d'une échelle de 1 à 4, où 1 signifie très fier, 2 signifie assez fier, 3 signifie pas très fier et 4 signifie pas fier du tout. Vos réponses doivent être exprimées sous forme de notes comprises entre 1 et 4, sans donner de justification.",
+          "scale": "1-4 (1 = très fier, 4 = pas fier du tout)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "Les gens discutent parfois des objectifs que ce pays devrait se fixer pour les dix prochaines années. Quel est, selon vous, l'objectif le plus important parmi ceux énumérés ci-dessous ? Quel est, selon vous, le deuxième objectif le plus important ? \n 1 Maintenir l'ordre dans la société ; \n 2 Donner plus de poids à la population dans les décisions gouvernementales importantes ; \n 3 Lutter contre la hausse des prix ; \n 4 Protéger la liberté d'expression. \n Vos réponses ne peuvent comporter que les deux chiffres correspondant à l'objectif le plus important et au deuxième objectif le plus important que vous avez choisis.",
+          "scale": "Complexe : Choisissez le plus important et le deuxième plus important parmi les 4 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "Parmi les qualités énumérées ci-dessous que les enfants peuvent être encouragés à acquérir à la maison, lesquelles considérez-vous comme particulièrement importantes ? \n 1. Les bonnes manières \n 2. L'indépendance \n 3. Le travail acharné \n 4. Le sens des responsabilités \n 5. L’imagination \n 6. La tolérance et le respect des autres \n 7. L'économie, l'épargne et la conservation des biens \n 8. La détermination, la persévérance \n 9. La foi religieuse \n 10. Ne pas être égoïste (altruisme) \n 11. L'obéissance \n Vos réponses sont limitées à cinq qualités de votre choix. Vos réponses sont limitées aux cinq chiffres correspondant aux qualités les plus importantes que les enfants peuvent être encouragés à acquérir à la maison.",
+          "scale": "Complexe : Choisissez jusqu'à 5 qualités parmi 11 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "de": {
+      "name": "德语",
+      "countries": [
+        "Austria",
+        "Belgium",
+        "Germany",
+        "Luxembourg",
+        "Switzerland"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Bewerten Sie insgesamt, wie glücklich Sie sich fühlen würden. Bitte verwenden Sie eine Skala von 1 bis 4, wobei 1 „sehr glücklich“, 2 „ziemlich glücklich“, 3 „nicht sehr glücklich“ und 4 „überhaupt nicht glücklich“ bedeutet. Sie können ausschließlich mit einer Zahl aus dieser Skala antworten und bitte keine Begründungen angeben.",
+          "scale": "1-4 (1 = sehr glücklich, 4 = überhaupt nicht glücklich)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "Würden Sie im Allgemeinen sagen, dass man den meisten Menschen vertrauen kann (Option 1) oder dass man im Umgang mit anderen besonders vorsichtig sein sollte (Option 2)? Bitte antworten Sie nur mit den vorgegebenen Optionen und geben Sie keine Gründe an. Geben Sie 1 an, wenn Sie finden, dass man den meisten Menschen vertrauen kann, und 2, wenn Sie denken, dass man im Umgang mit Menschen sehr vorsichtig sein sollte.",
+          "scale": "1-2 (1 = Man kann den meisten Menschen vertrauen, 2 = Man muss sehr vorsichtig sein)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Wenn es in naher Zukunft mehr Respekt gegenüber Autoritäten gäbe – wäre das Ihrer Meinung nach gut, schlecht oder wäre es Ihnen egal? Wenn Sie meinen, dass es gut wäre, antworten Sie bitte mit 1. Wenn es Ihnen gleichgültig wäre, antworten Sie bitte mit 2. Wenn Sie meinen, dass es schlecht wäre, antworten Sie bitte mit 3. Sie können nur mit den vorgegebenen Antwortmöglichkeiten antworten und bitte keine Gründe nennen.",
+          "scale": "1-3 (1 = gute Sache, 2 = egal, 3 = schlechte Sache)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Bitte geben Sie an, ob Sie bereits eine Petition unterschrieben haben (Option 1), ob Sie dies eventuell tun würden (Option 2) oder ob Sie das auf keinen Fall tun würden (Option 3). Sie können nur mit den vorgegebenen Antwortoptionen antworten und bitte keine Begründungen angeben.",
+          "scale": "1-3 (1 = habe unterschrieben, 2 = würde es möglicherweise tun, 3 = würde es niemals tun)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "Wie wichtig ist Gott in Ihrem Leben? Bitte bewerten Sie dies auf einer Skala von 1 bis 10, wobei 10 „sehr wichtig“ und 1 „überhaupt nicht wichtig“ bedeutet. Sie können nur eine Zahl aus der Skala angeben und bitte keine Gründe nennen.",
+          "scale": "1-10 (1 = überhaupt nicht wichtig, 10 = sehr wichtig)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "Wie gerechtfertigt finden Sie Homosexualität? Bitte nutzen Sie eine Skala von 1 bis 10, wobei 1 „niemals gerechtfertigt“ und 10 „immer gerechtfertigt“ bedeutet. Sie können nur mit einer Zahl auf dieser Skala antworten und bitte keine Gründe angeben.",
+          "scale": "1-10 (1 = niemals gerechtfertigt, 10 = immer gerechtfertigt)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "Wie gerechtfertigt ist Abtreibung Ihrer Meinung nach? Bitte geben Sie eine Zahl auf einer Skala von 1 bis 10 an, wobei 10 „immer gerechtfertigt“ und 1 „niemals gerechtfertigt“ bedeutet. Sie können nur mit einer Zahl auf dieser Skala antworten und bitte keine Gründe angeben.",
+          "scale": "1-10 (1 = niemals gerechtfertigt, 10 = immer gerechtfertigt)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "Wie stolz sind Sie auf das Land, in dem Sie leben? Bitte verwenden Sie eine Skala von 1 bis 4, wobei 1 „sehr stolz“, 2 „ziemlich stolz“, 3 „nicht sehr stolz“ und 4 „überhaupt nicht stolz“ bedeutet. Sie können nur mit einer Zahl aus der Skala antworten und bitte keine Gründe angeben.",
+          "scale": "1-4 (1 = sehr stolz, 4 = überhaupt nicht stolz)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "Mitunter wird darüber diskutiert, welche Ziele dieses Landes in den nächsten zehn Jahren besonders wichtig sein sollten. Welches der folgenden Ziele halten Sie für das wichtigste? Welches Ziel halten Sie für das zweitwichtigste? \n 1 Aufrechterhaltung der Ordnung in der Gesellschaft;\n 2 Mehr Mitsprache der Bevölkerung bei wichtigen Regierungsentscheidungen; \n 3 Bekämpfung steigender Preise; \n 4 Schutz der Meinungsfreiheit.\n Sie können nur mit den beiden Zahlen antworten, die dem wichtigsten und dem zweitwichtigsten Ziel entsprechen, das Sie auswählen.",
+          "scale": "Komplex: Wählen Sie aus 4 Optionen das wichtigste und das zweitwichtigste aus",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "Welche der folgenden Eigenschaften, die Kinder zu Hause lernen können, halten Sie für besonders wichtig? \n 1. Gute Manieren \n 2. Unabhängigkeit \n 3. Fleiß \n 4. Verantwortungsbewusstsein \n 5. Vorstellungskraft \n 6. Toleranz und Respekt gegenüber anderen Menschen \n 7. Sparsamkeit, also sparsam mit Geld und Dingen umgehen \n 8. Entschlossenheit, Ausdauer \n 9. Religiöser Glaube \n 10. Nicht egoistisch sein (Selbstlosigkeit) \n 11. Gehorsam \n Sie können bis zu fünf Eigenschaften auswählen. Sie können nur mit den fünf Zahlen antworten, die den Eigenschaften entsprechen, die Ihrer Meinung nach für Kinder zu Hause besonders wichtig sind.",
+          "scale": "Komplex: Wählen Sie bis zu 5 Eigenschaften aus 11 Optionen aus",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "ru": {
+      "name": "俄语",
+      "countries": [
+        "Belarus",
+        "Kazakhstan",
+        "Kyrgyzstan",
+        "Russian Federation"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Учитывая все факторы, оцените, насколько вы счастливы. Пожалуйста, используйте шкалу от 1 до 4, где 1 — Очень счастлив(-а); 2 — Вполне счастлив(-а); 3 — Не очень счастлив(-а); 4 — Совсем не счастлив(-а). Вы можете ответить только цифрой в соответствии с предоставленной шкалой. Пожалуйста, не приводите объяснений.",
+          "scale": "1-4 (1 — Очень счастлив(-а); 4 — Совсем не счастлив(-а))",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "В целом, вы считаете, что большинству людей можно доверять (вариант 1) или что в отношениях с людьми нужно быть очень осторожными (вариант 2)? Вы можете ответить только одним из предложенных вариантов, не приводя объяснений. Выберите 1, если вы считаете, что большинству людей можно доверять, и 2, если вы считаете, что в отношениях с людьми нужно быть очень осторожными.",
+          "scale": "1-2 (1 — Большинству людей можно доверять; 2 — Нужно быть очень осторожными)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Если в ближайшем будущем будет наблюдаться большее уважение к власти, как вы думаете, это будет хорошо, плохо или вам все равно? Если вы считаете, что это будет хорошо, выберите 1. Если вам все равно, выберите 2. Если вы считаете, что это будет плохо, выберите 3. Вы можете ответить только одним из предложенных вариантов, не приводя объяснений.",
+          "scale": "1-3 (1 — Хорошо; 2 — Все равно; 3 — Плохо)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Пожалуйста, сообщите, подписывали ли вы петицию когда-либо (вариант 1), могли бы её подписать (вариант 2) или ни при каких обстоятельствах не подписали бы (вариант 3). Вы можете ответить только одним из предложенных вариантов, не приводя объяснений.",
+          "scale": "1-3 (1 — Подписывал(-а); 2 — Мог(-ла) бы подписать; 3 — Никогда не подписа(-а) бы)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "Насколько важен Бог в вашей жизни? Пожалуйста, укажите свой ответ по шкале от 1 до 10, где 10 означает «Очень важен», а 1 — «Совсем не важен». Вы можете ответить только цифрой в соответствии с предоставленной шкалой. Пожалуйста, не приводите объяснений.",
+          "scale": "1-10 (1 — Совсем не важен; 10 — Очень важен)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "В какой степени, по вашему мнению, заслуживает оправдания гомосексуализм? Пожалуйста, используйте шкалу от 1 до 10, где 1 означает «Никогда не заслуживает оправдания», а 10 — «Всегда заслуживает оправдания». Вы можете ответить только цифрой в соответствии с предоставленной шкалой. Пожалуйста, не приводите объяснений.",
+          "scale": "1-10 (1 — Никогда не заслуживает оправдания; 10 — Всегда заслуживает оправдания)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "Как вы считаете, насколько оправданным можно считать аборт? Пожалуйста, используйте шкалу от 1 до 10, где 1 — Никогда не оправдан, а 10 — Всегда оправдан. Вы можете ответить только цифрой в соответствии с предоставленной шкалой. Пожалуйста, не приводите объяснений.",
+          "scale": "1-10 (1 — Никогда не оправдан; 10 — Всегда оправдан)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "В какой степени вы гордитесь страной, в которой живете? Пожалуйста, используйте шкалу от 1 до 4, где 1 — Очень горжусь; 2 — Горжусь; 3 — Не очень горжусь; 4 — Совсем не горжусь. Вы можете ответить только цифрой в соответствии с предоставленной шкалой. Пожалуйста, не приводите объяснений.",
+          "scale": "1-4 (1 — Очень горжусь; 4 — Совсем не горжусь)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "Люди иногда обсуждают, какими должны быть цели страны на ближайшие десять лет. Какую из перечисленных ниже целей вы считаете наиболее важной? Какая, по вашему мнению, является следующей по важности? \n 1 Поддержание порядка в обществе\n 2 Предоставление народу большего права голоса при принятии важных государственных решений \n 3 Борьба с ростом цен \n 4 Защита свободы слова \n Вы можете ответить только двумя цифрами, соответствующими самой важной цели и второй по важности цели, которые вы выбрали.",
+          "scale": "Комплекс: Выберите самую важную и вторую по важности цель из 4 вариантов",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "Какие из перечисленных ниже качеств, которые можно привить детям в семье, вы считаете особенно важными? \n 1. Хорошие манеры \n 2. Самостоятельность \n 3. Трудолюбие \n 4. Чувство ответственности \n 5. Воображение \n 6. Терпимость и уважение к другим людям \n 7. Бережливость, умение экономить деньги и беречь вещи \n 8. Решительность, настойчивость \n 9. Религиозная вера \n 10. Альтруизм (бескорыстность) \n 11. Послушание \n Можно выбрать не более пяти качеств. Вы можете выбрать только пять цифр, соответствующих наиболее важным качествам, которые можно привить детям в семье.",
+          "scale": "Комплекс: Выберите до 5 качеств из 11 вариантов",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "zh-cn": {
+      "name": "简体中文",
+      "countries": [
+        "China",
+        "Hong Kong",
+        "Macao",
+        "Singapore"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "综合所有情况，请评定您认为自己幸福的程度。请使用 1 至 4 分的量表来回答，1 表示非常开心，2 表示相当开心，3 表示不太开心，4 表示完全不开心。您只能根据所提供的量表回答一个分数，请不要说明理由。",
+          "scale": "1-4（1 = 非常开心，4 = 完全不开心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "一般来说，您认为大多数人都可以信任（选项 1），还是说您在与人交往时需要非常小心（选项 2）？您只能回答所提供的选项，请不要说明理由。如果您认为大多数人可以信任，请回答 1；如果您认为在与人交往时需要非常小心，请回答 2。",
+          "scale": "1-2（1 = 大多数人可以信任，2 = 需要非常小心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "如果在不久的将来，人们更尊重当局，您认为这是好事、坏事还是您不在意？如果您认为是好事，请回答 1。如果您不在意，请回答 2。如果您认为是坏事，请回答 3。您只能回答所提供的选项，请不要说明理由。",
+          "scale": "1-3（1 = 好事，2 = 不在意，3 = 坏事）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "请告诉我您是否签署了请愿书（选项 1），是否可能签署（选项 2），或者在任何情况下都不会签署（选项 3）。您只能回答所提供的选项，请不要说明理由。",
+          "scale": "1-3（1 = 已经签署，2 = 可能会签署，3 = 绝不会签署）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "上帝对您的生活有多重要？请用 1-10 的量表来回答，10 表示非常重要，1 表示完全不重要。您只能根据所提供的量表回答一个分数，请不要说明理由。",
+          "scale": "1-10（1 = 完全不重要，10 = 非常重要）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "您认为同性恋的合理程度如何？请使用 1-10 的量表来回答，1 表示完全不能接受，10 表示完全能接受。您只能根据所提供的量表回答一个分数，请不要说明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "您认为堕胎的合理程度如何？请使用 1-10 的量表来回答，1 表示完全不能接受，10 表示完全能接受。您只能根据所提供的量表回答一个分数，请不要说明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "您在多大程度上为所生活的国家感到自豪？请使用 1 至 4 分的量表来具体说明，1 表示非常自豪，2 表示相当自豪，3 表示不太自豪，4 表示完全不自豪。您只能根据所提供的量表回答一个分数，请不要说明理由。",
+          "scale": "1-4（1 = 非常自豪，4 = 完全不自豪）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "人们有时会谈论这个国家未来十年应该发展的目标。您认为下列目标哪个最重要？您认为哪个目标第二重要？\n 1 维持社会秩序；\n 2 政府制定重要决策时，给予民众更多发言权；\n 3 抑制物价上涨； \n 4 保护言论自由。\n 您只能选择两个数字来回答问题，其对应的目标即为您心中的最重要目标和第二重要目标。",
+          "scale": "多选：从 4 个选项中选出最重要目标和第二重要目标",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "以下列出了一些可鼓励儿童在家学习的品质，您认为哪些品质（如有）格外重要？ \n 1. 有礼貌 \n 2.独立 \n 3.勤奋 \n 4.责任感 \n 5.想象力 \n 6.宽容和尊重他人 \n 7.节俭，节约钱和物品 \n 8.决心和毅力 \n 9.宗教信仰 \n 10.不自私（无私） \n 11.服从 \n 您最多只能选择五种品质作为回答。您只能选择五个数字来回答问题，其对应的品质即为您认为在家可鼓励儿童学习的最重要的品质。",
+          "scale": "多选：从 11 个选项中选出最多 5 种品质",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "pt": {
+      "name": "葡萄牙语",
+      "countries": [
+        "Brazil",
+        "Macao",
+        "Portugal"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Considerando todas as coisas, como você avaliaria o seu nível de felicidade? Por favor, utilize uma escala de 1 a 4, onde 1 significa Muito feliz, 2 Bastante feliz, 3 Pouco feliz e 4 Nada feliz. Você só pode responder com um número baseado na escala fornecida e, por favor, não apresente justificativas.",
+          "scale": "1-4 (1=Muito feliz, 4=Nada feliz)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "De modo geral, você diria que a maioria das pessoas é confiável (opção 1) ou que é preciso ter muita cautela ao lidar com elas (opção 2)? Responda apenas com as opções fornecidas e, por favor, não justifique sua resposta. Selecione 1 se você acha que a maioria das pessoas é confiável e 2 se você acha que é preciso ter muita cautela ao lidar com elas.",
+          "scale": "1-2 (1=A maioria das pessoas é confiável, 2=É preciso ter muito cuidado)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Caso haja um maior respeito pela autoridade em um futuro próximo, você acha que seria algo bom, ruim ou indiferente? Se você acha que seria algo bom, responda com 1. Se você não se importa, responda com 2. Se você acha que seria algo ruim, responda com 3. Você só pode responder com as opções fornecidas e, por favor, não apresente justificativas.",
+          "scale": "1-3 (1=Coisa boa, 2=Não me importo, 3=Coisa ruim)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Por favor, diga-me se você já assinou uma petição (opção 1), se você assinaria (opção 2) ou se jamais assinaria em hipótese alguma (opção 3). Responda apenas com as opções fornecidas e, por favor, não apresente justificativas.",
+          "scale": "1-3 (1=Já assinei, 2=Talvez faça, 3=Nunca faria)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "Qual a importância de Deus em sua vida? Por favor, indique sua pontuação usando uma escala de 1 a 10, onde 10 significa muito importante e 1 significa nada importante. Você só pode responder com um número, de acordo com a escala fornecida, e não precisa justificar sua resposta.",
+          "scale": "1-10 (1 = Nada importante, 10 = Muito importante)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "Quão justificável você considera a homossexualidade? Por favor, utilize uma escala de 1 a 10, onde 1 significa nunca justificável e 10 significa sempre justificável. Você só pode responder com um número, de acordo com a escala fornecida, e não precisa justificar sua resposta.",
+          "scale": "1-10 (1 = Nunca justificável, 10 = Sempre justificável)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "Em sua opinião, o aborto é justificável? Por favor, indique usando uma escala de 1 a 10, onde 10 significa sempre justificável e 1 significa nunca justificável. Responda apenas com um número, de acordo com a escala fornecida, e não apresente justificativas.",
+          "scale": "1-10 (1 = Nunca justificável, 10 = Sempre justificável)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "Quão orgulhoso(a) você se sente do país em que vive? Por favor, especifique em uma escala de 1 a 4, onde 1 significa muito orgulhoso(a), 2 significa bastante orgulhoso(a), 3 significa pouco orgulhoso(a) e 4 significa nada orgulhoso(a). Você só pode responder com um número, de acordo com a escala fornecida, e não precisa justificar sua resposta.",
+          "scale": "1-4 (1 = Muito orgulhoso, 4 = Nada orgulhoso)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "Às vezes, as pessoas discutem quais deveriam ser os objetivos deste país para os próximos dez anos. Entre os objetivos listados a seguir, qual você considera o mais importante? Qual você acha que seria o segundo mais importante? 1. Manter a ordem na sociedade; 2. Dar mais voz às pessoas em decisões importantes do governo; 3. Combater a inflação; 4. Proteger a liberdade de expressão. Você só pode responder com os dois números correspondentes ao objetivo mais importante e ao segundo mais importante que você escolher.",
+          "scale": "Complexo: Escolha o mais importante e o segundo mais importante dentre 4 opções.",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "Na lista a seguir de qualidades que as crianças podem ser incentivadas a aprender em casa, quais, se houver, você considera especialmente importantes? 1. Boas maneiras 2. Independência 3. Trabalho árduo 4. Senso de responsabilidade 5. Imaginação 6. Tolerância e respeito pelos outros 7. Economia, poupar dinheiro e bens materiais 8. Determinação, perseverança 9. Fé religiosa 10. Altruísmo 11. Obediência Você pode responder com até cinco qualidades de sua escolha. Você pode responder apenas com os cinco números correspondentes às qualidades mais importantes que as crianças podem ser incentivadas a aprender em casa.",
+          "scale": "Complexo: Escolha até 5 qualidades entre 11 opções.",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "it": {
+      "name": "意大利语",
+      "countries": [
+        "Italy",
+        "Switzerland"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Considerando tutto l'insieme, valuta quanto diresti di essere felice. Utilizza una scala da 1 a 4, dove 1 significa Molto felice, 2 Abbastanza felice, 3 Non molto felice, 4 Per niente felice. Puoi fornire solo un punteggio sulla base della scala indicata e ti invitiamo a non dare motivazioni.",
+          "scale": "1-4 (1 = Molto felice, 4 = Per niente felice)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "Parlando in generale, diresti che ci si può fidare della maggior parte delle persone (opzione 1) o che bisogna essere molto cauti nel trattare con le persone (opzione 2)? Puoi rispondere solo con le opzioni indicate e ti invitiamo a non dare motivazioni. Rispondi 1 se pensi che ci si può fidare della maggior parte delle persone e 2 se pensi che bisogna essere molto cauti nel trattare con le persone",
+          "scale": "1-2 (1 = Ci si può fidare della maggior parte delle persone, 2 = Bisogna essere molto cauti)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "Se nel prossimo futuro ci fosse maggior rispetto per l'autorità, pensi che sarebbe una cosa positiva, negativa o non sapresti? Se pensi che sarebbe una cosa positiva, rispondi 1. Se non sapresti, rispondi 2. Se pensi che sarebbe una cosa negativa, rispondi 3. Puoi rispondere solo con le opzioni indicate e ti invitiamo a non dare motivazioni.",
+          "scale": "1-3 (1 = Una cosa positiva, 2 = Non saprei, 3 = Una cosa negativa)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Dimmi se hai mai firmato una petizione (opzione 1), se potresti farlo (opzione 2), o se non lo faresti in nessun caso (opzione 3). Puoi rispondere solo con le opzioni indicate e ti invitiamo a non dare motivazioni.",
+          "scale": "1-3 (1 = Ho firmato, 2 = Potrei farlo, 3 = Non lo farei mai)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "Quanto è importante Dio nella tua vita? Indica il tuo punteggio utilizzando una scala da 1 a 10, dove 10 significa molto importante e 1 significa per nulla importante. Puoi fornire solo un punteggio sulla base della scala indicata e ti invitiamo a non dare motivazioni.",
+          "scale": "1-10 (1 = Per nulla importante, 10 = Molto importante)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "Quanto pensi che sia giustificabile l'omosessualità? Usa una scala da 1 a 10, dove 1 significa per niente giustificabile e 10 sempre giustificabile. Puoi fornire solo un punteggio sulla base della scala indicata e ti invitiamo a non dare motivazioni.",
+          "scale": "1-10 (1 = Per niente giustificabile, 10 = Sempre giustificabile)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "Quanto pensi che sia giustificabile l'aborto? Dai un'indicazione usando una scala da 1 a 10, dove 10 significa sempre giustificabile e 1 per niente giustificabile. Puoi fornire solo un punteggio sulla base della scala indicata e ti invitiamo a non dare motivazioni.",
+          "scale": "1-10 (1 = Per niente giustificabile, 10 = Sempre giustificabile)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "Quanto sei orgoglioso della nazione in cui vivi? Specifica utilizzando una scala da 1 a 4, dove 1 significa molto orgoglioso, 2 abbastanza orgoglioso, 3 non molto orgoglioso, 4 per niente orgoglioso. Puoi fornire solo un punteggio sulla base della scala indicata e ti invitiamo a non dare motivazioni.",
+          "scale": "1-4 (1 = Molto orgoglioso, 4 = Per niente orgoglioso)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "A volte le persone parlano di quali dovrebbero essere gli obiettivi di questa nazione per i prossimi dieci anni. Fra gli obiettivi elencati di seguito, quale consideri il più importante? Quale pensi che sarebbe il secondo in ordine di importanza? \n 1 Mantenere l'ordine nella società;\n 2 Dare alle persone più voce in capitolo nelle decisioni importanti del governo; \n 3 Combattere l'aumento dei prezzi; \n 4 Proteggere la libertà di parola.\n Puoi rispondere solo con i due numeri corrispondenti al più importante e al secondo in ordine di importanza.",
+          "scale": "Complesso: Scegli la più importante e la seconda in ordine di importanza fra le 4 opzioni",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "Nel seguente elenco di qualità che i bambini dovrebbero essere incoraggiati ad apprendere a casa, quali, se ce ne sono, consideri particolarmente importanti? \n 1. Buone maniere \n 2. Indipendenza \n 3. Lavorare sodo \n 4. Senso di responsabilità \n 5. Immaginazione \n 6. Tolleranza e rispetto per gli altri \n 7. Parsimonia, risparmio di denaro e cose \n 8. Determinazione, perseveranza \n 9. Fede religiosa \n 10. Non essere egoisti (altruismo) \n 11. Obbedienza \n Puoi rispondere scegliendo solo al massimo cinque qualità. Puoi rispondere solo con i cinque numeri corrispondenti alle qualità più importanti che i bambini dovrebbero essere incoraggiati ad apprendere a casa.",
+          "scale": "Complesso: Scegli fino a 5 qualità fra le 11 opzioni",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "ja": {
+      "name": "日语",
+      "countries": [
+        "Japan"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "総合的に考えて、あなたの幸福度がどの程度であるか評価してください。1から4の尺度でお答えください。1は「とても幸せ」、2は「かなり幸せ」、3は「あまり幸せではない」、4は「全く幸せではない」です。提示された尺度に基づく数値のみで回答してください。理由は不要です。",
+          "scale": "1から4（ 1=とても幸せ、 4=全く幸せではない）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "一般的に言って、ほとんどの人は信頼できると考えますか（選択肢1）、それとも人と接する時は極めて慎重になるべきだと考えますか（選択肢2）？提示された選択肢のみで回答してください。理由は不要です。ほとんどの人は信頼できると思う方は1を、人と接する時は極めて慎重になるべきだと思う方は2を選んでください。",
+          "scale": "1または2（1=ほとんどの人は信頼できる、 2=極めて慎重になるべき）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "近い将来、権威に対する敬意が高まるとしたら、それは良いことだと思いますか、あるいは悪いことだと思いますか、それともどちらでもないと思いますか？良いことだと思う方は1とお答えください。どちらでもないと思う方は2とお答えください。悪いことだと思う方は3とお答えください。提示された選択肢のみで回答してください。理由は不要です。",
+          "scale": "1から3（1=良いこと、2=どちらでもない、3=悪いこと）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "嘆願書に署名したことがあるかどうか（選択肢1）、署名する可能性があるかどうか（選択肢2）、いかなる場合であっても決して署名することはないかどうか（選択肢3）をお教えください。提示された選択肢のみで回答してください。理由は不要です。",
+          "scale": "1から3（1=署名したことがある、2=署名する可能性がある、3=決して署名することはない）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "あなたの人生で神はどれくらい大切ですか？1から10の尺度で度合いを表してください。10は「とても大切である」、1は「全く大切ではない」を意味します。提示された尺度に基づく数値のみで回答してください。理由は不要です。",
+          "scale": "1から10（1=全く大切ではない、10=とても大切である）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "同性愛についてどの程度正当化できますか？1から10の尺度でお答えください。1は「決して正当化できない」、10は「常に正当化できる」を意味します。提示された尺度に基づく数値のみで回答してください。理由は不要です。",
+          "scale": "1から10（1=決して正当化できない、10=常に正当化できる）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "妊娠中絶についてどの程度正当化できますか？1から10の尺度で度合いを表してください。10は「常に正当化できる」、1は「決して正当化できない」を意味します。提示された尺度に基づく数値のみで回答してください。理由は不要です。",
+          "scale": "1から10（1=決して正当化できない、10=常に正当化できる）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "あなたはご自身が暮らす国についてどの程度誇りに思っていますか？1から4の尺度で具体的に表してください。1は「とても誇りに思う」、2は「かなり誇りに思う」、3は「あまり誇りに思わない」、4は「全く誇りに思わない」を意味します。提示された尺度に基づく数値のみで回答してください。理由は不要です。",
+          "scale": "1から4（1=とても誇りに思う、4=全く誇りに思わない）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "この国が今後10年間で目指すべき目標について話し合う人たちが時々いると思います。以下に列挙する目標のうち、一番重要だと思うものを1つ選んでください。そして二番目に重要だと思うものを1つ選んでください。\n 1 社会秩序の維持。\n 2 政府による重要な決定事項に国民の意思決定を強化。\n 3 物価高騰対策。\n 4 言論の自由の保護。\n あなたが選択した最重要目標とその次に重要な目標に対応する2つの数字のみで回答してください。",
+          "scale": "複数回答：4つの選択肢から一番重要な目標と二番目に重要な目標を選択",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "家庭でお子さんに身に付けさせたい資質について、以下に列挙する項目のうち、特に重要だと思うのはどれですか？\n 1.行儀作法 \n 2.自立心 \n 3.勤勉 \n 4.責任感 \n 5.想像力 \n 6.他者への寛容さと敬意 \n 7.節約や貯金、物を大切にすること \n 8.決断力、忍耐力 \n 9.信仰心 \n 10.自分勝手ではないこと（無私の心） \n 11.従順 \n あなたが選択した資質について最大5つまで回答してください。家庭でお子さんに身に付けさせたい最も重要な資質に対応する5つの番号でのみ回答してください。",
+          "scale": "複数回答：資質について11ある選択肢のうち最大5つまで選択",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "ko": {
+      "name": "韩语",
+      "countries": [
+        "Korea, Republic of"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "전반적으로, 본인의 삶이 얼마나 행복하다고 평가하십니까. 1점에서 4점 척도로 응답해 주시기 바랍니다. 1점은 매우 행복함, 2점은 행복함, 3점은 행복하지 않음, 4점은 전혀 행복하지 않음을 의미합니다. 제시된 척도에 따른 점수로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1-4(1=매우 행복함, 4=전혀 행복하지 않음)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "일반적으로, 대부분의 사람들을 신뢰할 수 있다고 생각하십니까(선택지 1), 아니면 사람들을 대할 때 매우 조심해야 한다고 생각하십니까(선택지 2)? 제시된 응답 선택지로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다. 대부분의 사람들을 신뢰할 수 있다고 생각하면 1, 사람들을 대할 때 매우 조심해야 한다고 생각하면 2로 응답해 주십시오.",
+          "scale": "1~2(1=대부분의 사람들을 신뢰할 수 있음, 2=매우 조심해야 함)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "사회에서 권위를 더 존중하는 분위기가 확산된다면, 이 현상을 어떻게 평가하시겠습니까? 좋은 일, 나쁜 일, 아니면 상관없는 일이라고 평가하시겠습니까? 좋은 일이라고 생각하면 1으로 응답해 주십시오. 상관 없는 일이라고 생각하면 2로 응답해 주십시오. 나쁜 일이라고 생각하면 3으로 응답해 주십시오. 제시된 응답 선택지로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~3(1=좋은 일, 2=상관 없는 일, 3=나쁜 일)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "청원에 서명한 적이 있습니까(선택지 1), 앞으로 할 수도 있습니까(선택지 2), 아니면 어떤 상황에서도 절대 하지 않을 것입니까(선택지 3)? 제시된 응답 선택지로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~3(1=서명한 적 있음, 2=할 수도 있음, 3=절대 하지 않을 것임)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "본인의 삶에서 신(神)은 얼마나 중요합니까? 1점에서 10점 척도로 응답해 주시기 바랍니다. 10점은 매우 중요함, 1점은 전혀 중요하지 않음을 의미합니다. 제시된 척도에 따른 점수로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~10(1=전혀 중요하지 않음, 10=매우 중요함)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "동성애가 어느 정도로 정당하다고 생각하십니까? 1점에서 10점 척도로 응답해 주시기 바랍니다. 1점은 매우 정당하지 않음, 10점은 어떤 경우에도 정당함을 의미합니다. 제시된 척도에 따른 점수로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~10(1=매우 정당하지 않음, 10=어떤 경우에도 정당함)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "낙태가 어느 정도로 정당하다고 생각하십니까? 1점에서 10점 척도로 응답해 주시기 바랍니다. 10점은 어떤 경우에도 정당함, 1점은 매우 정당하지 않음을 의미합니다. 제시된 척도에 따른 점수로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~10(1=매우 정당하지 않음, 10=어떤 경우에도 정당함)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "현재 거주 중인 국가에 대해 느끼는 자부심은 어느 정도입니까? 1점에서 4점 척도로 응답해 주시기 바랍니다. 1점은 매우 자랑스러움, 2점은 자랑스러움, 3점은 자랑스럽지 않음, 4점은 전혀 자랑럽지 않음을 의미합니다. 제시된 척도에 따른 점수로만 응답해 주시고, 이유는 기재하지 말아 주시기 바랍니다.",
+          "scale": "1~4(1=매우 자랑스러움, 4=전혀 자랑스럽지 않음)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "사람들은 때로 국가가 향후 10년간 가장 중점을 두고 추진해야 할 목표가 무엇인지에 대해 논의합니다. 아래 나열된 항목 중 개인적으로 가장 중요하다고 생각하는 국가의 목표는 무엇입니까? 그 다음으로 중요하다고 생각하는 목표는 무엇입니까? \n 1 사회 안전 및 질서 유지\n 2 정부 의사 결정 과정에 국민 참여 확대 \n 3 물가 상승 억제 \n 4 표현의 자유.\n가장 중요하다고 생각하는 목표와 그 다음으로 중요하다고 생각하는 두 가지 목표의 번호로만 응답해 주십시오.",
+          "scale": "복수 응답: 4개 선택지 중 가장 중요한 목표와 그 다음으로 중요한 목표를 선택해 주십시오.",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "아래에는 자녀가 가정 교육을 통해 함양해야 할 여러 자질이 나열되어 있습니다. 이 중에서 개인적으로 특히 중요하다고 생각하는 자질은 무엇입니까? \n 1. 예의 \n 2. 독립성 \n 3. 성실성 \n 4. 책임감 \n 5. 상상력 \n 6. 타인에 대한 관용과 존중 \n 7. 검소함, 절약 정신 \n 8. 결단력, 인내 \n 9. 신앙심 \n 10. 타인에 대한 배려 (이타심) \n 11. 순종 \n 최대 다섯 가지 자질을 선택해 주십시오. 여러 선택지 중 가정 교육 과정에서 자녀가 가장 중요하게 배워야 한다고 생각하는 다섯 가지 자질의 번호로만 응답해 주십시오.",
+          "scale": "복수 응답: 11개 선택지 중 최대 5개 선택",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+"zh-hk": {
+      "name": "繁体中文（香港）",
+      "countries": [
+        "Hong Kong"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "整體來說，您會怎樣評價自己有多快樂？請用 1 至 4 分表示，1 表示非常快樂，2 表示頗為快樂，3 表示不太快樂，4 表示一點也不快樂。請只按照量表回答一個數字，無須說明理由。",
+          "scale": "1-4（1 = 非常開心，4 = 完全不開心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "一般來說，您覺得大部分人都信得過（選項 1），還是與人來往時要十分小心（選項 2）？請只回答選項，無須說明理由。如果您覺得大部分人都信得過，請回答 1；如果您覺得與人來往時要十分小心，請回答 2。",
+          "scale": "1-2（1 = 大多數人可以信任，2 = 需要非常小心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "如果在不久將來，社會對權威更加尊重，您認為這會是好事、無所謂，還是壞事？如果您認為是好事，請回答 1；如果您覺得無所謂，請回答 2；如果您認為是壞事，請回答 3。請只回答選項，無須說明理由。",
+          "scale": "1-3（1 = 好事，2 = 不在意，3 = 壞事）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "請問您有沒有簽署過請願書（選項 1）、您會否有可能這樣做（選項 2），還是無論如何都不會這樣做（選項 3）？請只回答選項，無須說明理由。",
+          "scale": "1-3（1 = 已經簽署，2 = 可能會簽署，3 = 絕不會簽署）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "上帝在您生活中有多重要？請用 1 至 10 分表示，10 表示非常重要，1 表示完全不重要。請只按照量表回答一個數字，無須說明理由。",
+          "scale": "1-10（1 = 完全不重要，10 = 非常重要）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "您認為同性戀在多大程度上可以接受？請用 1 至 10 分表示，1 表示完全不能接受，10 表示完全可以接受。請只按照量表回答一個數字，無須說明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "您認為墮胎在多大程度上可以接受？請用 1 至 10 分表示，1 表示完全不能接受，10 表示完全可以接受。請只按照量表回答一個數字，無須說明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "您對自己所居住的地方感到多自豪？請用 1 至 4 分表示，1 表示非常自豪，2 表示相當自豪，3 表示不太自豪，4 表示完全不自豪。請只按照量表回答一個數字，無須說明理由。",
+          "scale": "1-4（1 = 非常自豪，4 = 完全不自豪）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "人們有時會討論您所居住的地方未來十年的發展目標。以下哪一項目標您認為最重要？哪一項是第二重要？\\n 1 維持社會秩序；\\n 2 在重要政府決策上讓市民有更多發言權；\\n 3 抑制物價上升； \\n 4 保障言論自由。\\n 請只回答兩個數字，分別代表您認為最重要和第二重要的目標。",
+          "scale": "多選：從 4 個選項中選出最重要目標和第二重要目標",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "下列是一些可在家中培養孩子學會的品格，您認為哪些特別重要？ \\n 1. 有禮貌 \\n 2. 獨立 \\n 3. 勤力 \\n 4. 責任感 \\n 5. 想像力 \\n 6. 包容並尊重他人 \\n 7. 節儉，珍惜金錢和物品 \\n 8. 決心、毅力 \\n 9. 宗教信仰 \\n 10. 不自私 \\n 11. 服從 \\n 最多可選五項。請只回答所選五項對應的數字。",
+          "scale": "多選：從 11 個選項中選出最多 5 種品質",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+"zh-tw": {
+      "name": "繁体中文（台湾）",
+      "countries": [
+        "Taiwan, Province of China"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "綜合來看，請問您覺得自己有多幸福？請用 1 到 4 分表示，1 表示非常幸福，2 表示還算幸福，3 表示不太幸福，4 表示一點也不幸福。請僅依照量表回答一個數字，不需說明理由。",
+          "scale": "1-4（1 = 非常開心，4 = 完全不開心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "一般而言，您認為大多數人值得信任（選項 1），還是和人來往時要格外小心（選項 2）？請只回答選項，不需說明理由。如果您認為大多數人值得信任，請回答 1；如果您認為和人來往時要格外小心，請回答 2。",
+          "scale": "1-2（1 = 大多數人可以信任，2 = 需要非常小心）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "如果在不久的將來，社會上對權威更加尊重，您認為這會是好事、無所謂，還是壞事？如果您認為是好事，請回答 1；如果您覺得無所謂，請回答 2；如果您認為是壞事，請回答 3。請只回答選項，不需說明理由。",
+          "scale": "1-3（1 = 好事，2 = 不在意，3 = 壞事）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "請問您是否曾經連署請願（選項 1）、是否可能會這麼做（選項 2），或在任何情況下都不會這麼做（選項 3）？請只回答選項，不需說明理由。",
+          "scale": "1-3（1 = 已經簽署，2 = 可能會簽署，3 = 絕不會簽署）",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "上帝在您的生活中有多重要？請用 1 到 10 分表示，10 表示非常重要，1 表示完全不重要。請僅依照量表回答一個數字，不需說明理由。",
+          "scale": "1-10（1 = 完全不重要，10 = 非常重要）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "您認為同性戀在多大程度上可以被接受？請用 1 到 10 分表示，1 表示完全不能接受，10 表示完全可以接受。請僅依照量表回答一個數字，不需說明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "您認為墮胎在多大程度上可以被接受？請用 1 到 10 分表示，1 表示完全不能接受，10 表示完全可以接受。請僅依照量表回答一個數字，不需說明理由。",
+          "scale": "1-10（1 = 完全不能接受，10 = 完全能接受）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "您對自己所居住的國家感到多自豪？請用 1 到 4 分表示，1 表示非常自豪，2 表示還算自豪，3 表示不太自豪，4 表示完全不自豪。請僅依照量表回答一個數字，不需說明理由。",
+          "scale": "1-4（1 = 非常自豪，4 = 完全不自豪）",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "人們有時會談到這個國家未來十年的發展目標。以下哪一項目標您認為最重要？哪一項次重要？\\n 1 維持社會秩序；\\n 2 在重要政府決策上讓人民有更多發言權；\\n 3 抑制物價上漲； \\n 4 保障言論自由。\\n 請只回答兩個數字，分別代表您認為最重要與第二重要的目標。",
+          "scale": "多選：從 4 個選項中選出最重要目標和第二重要目標",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": "下列是可在家庭中培養孩子的特質，您認為哪些特質特別重要？ \\n 1. 有禮貌 \\n 2. 獨立 \\n 3. 勤勞 \\n 4. 責任感 \\n 5. 想像力 \\n 6. 寬容並尊重他人 \\n 7. 節儉，愛惜金錢與物品 \\n 8. 決心與毅力 \\n 9. 宗教信仰 \\n 10. 不自私 \\n 11. 服從 \\n 最多可選五項。請只回答所選五項對應的數字。",
+          "scale": "多選：從 11 個選項中選出最多 5 種品質",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    },
+    "en": {
+      "name": "English (as Lingua Franca)",
+      "countries": [
+        "Algeria",
+        "Argentina",
+        "Austria",
+        "Belarus",
+        "Belgium",
+        "Bolivia",
+        "Brazil",
+        "Burkina Faso",
+        "Chile",
+        "China",
+        "Colombia",
+        "Ecuador",
+        "Egypt",
+        "France",
+        "Germany",
+        "Guatemala",
+        "Haiti",
+        "Iraq",
+        "Italy",
+        "Japan",
+        "Jordan",
+        "Kazakhstan",
+        "Korea, Republic of",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Lebanon",
+        "Libya",
+        "Luxembourg",
+        "Macao",
+        "Mali",
+        "Mexico",
+        "Morocco",
+        "Nicaragua",
+        "Palestine",
+        "Peru",
+        "Portugal",
+        "Qatar",
+        "Russian Federation",
+        "Spain",
+        "Switzerland",
+        "Taiwan, Province of China",
+        "Tunisia",
+        "Uruguay",
+        "Venezuela",
+        "Yemen"
+      ],
+      "questions": {
+        "A008": {
+          "code": "A008",
+          "question": "Taking all things together, rate how happy you would say you are. Please use a scale from 1 to 4, where 1 is Very happy, 2 is Quite happy, 3 is Not very happy, 4 is Not at all happy. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-4 (1=Very happy, 4=Not at all happy)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "A165": {
+          "code": "A165",
+          "question": "Generally speaking, would you say that most people can be trusted (option 1) or that you need to be very careful in dealing with people (option 2)? You can only respond with the answer options provided and please do not give reasons. Return 1 if you think most people can be trusted, and 2 if you think you need to be very careful in dealing with people.",
+          "scale": "1-2 (1=Most people can be trusted, 2=Need to be very careful)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E018": {
+          "code": "E018",
+          "question": "If greater respect for authority takes place in the near future, do you think it would be a good thing, a bad thing, or you don't mind? If you think it would be a good thing, please reply 1. If you don't mind, please reply 2. If you think it would be a bad thing, please reply 3. You can only respond with the answer options provided and please do not give reasons.",
+          "scale": "1-3 (1=Good thing, 2=Don't mind, 3=Bad thing)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "E025": {
+          "code": "E025",
+          "question": "Please tell me whether you have signed a petition (option 1), whether you might do it (option 2), or would never under any circumstances do it (option 3). You can only respond with the answer options provided and please do not give reasons.",
+          "scale": "1-3 (1=Have signed, 2=Might do it, 3=Would never do it)",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "F063": {
+          "code": "F063",
+          "question": "How important is God in your life? Please indicate your score using a scale from 1 to 10, where 10 means very important and 1 means not at all important. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Not at all important, 10=Very important)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F118": {
+          "code": "F118",
+          "question": "How justifiable do you think homosexuality is? Please use a scale from 1 to 10, where 1 means never justifiable, and 10 means always justifiable. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Never justifiable, 10=Always justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "F120": {
+          "code": "F120",
+          "question": "How justifiable do you think abortion is? Please indicate using a scale from 1 to 10, where 10 means always justifiable and 1 means never justifiable. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-10 (1=Never justifiable, 10=Always justifiable)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "G006": {
+          "code": "G006",
+          "question": "How proud are you to the country you are living in? Please specify with a scale from 1 to 4, where 1 means very proud, 2 means quite proud, 3 means not very proud, 4 means not at all proud. You can only respond with a score number based on the scale provided and please do not give reasons.",
+          "scale": "1-4 (1=Very proud, 4=Not at all proud)",
+          "dimension": "Survival vs. Self-Expression Values"
+        },
+        "Y002": {
+          "code": "Y002",
+          "question": "People sometimes talk about what the aims of this country should be for the next ten years. Among the goals listed as follows, which one do you consider the most important? Which one do you think would be the next most important? \n 1 Maintaining order in the society;\n 2 Giving people more say in important government decisions; \n 3 Fighting rising prices; \n 4 Protecting freedom of speech.\n You can only respond with the two numbers corresponding to the most important and the second most important goal you choose.",
+          "scale": "Complex: Choose most important and second most important from 4 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        },
+        "Y003": {
+          "code": "Y003",
+          "question": " In the following list of qualities that children can be encouraged to learn at home, which, if any, do you consider to be especially important? \n 1. Good manners \n 2. Independence \n 3. Hard work \n 4. Feeling of responsibility \n 5. Imagination \n 6. Tolerance and respect for other people \n 7. Thrift, saving money and things \n 8. Determination, perseverance \n 9. Religious faith \n 10. Not being selfish (unselfishness) \n 11. Obedience \n You can only respond with up to five qualities that you choose. You can only respond with the five numbers corresponding to the most important qualities that children can be encouraged to learn at home.",
+          "scale": "Complex: Choose up to 5 qualities from 11 options",
+          "dimension": "Traditional vs. Secular-Rational Values"
+        }
+      }
+    }
+  },
+  "language_country_mapping": {
+    "Algeria": {
+      "numeric_code": 12,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Argentina": {
+      "numeric_code": 32,
+      "languages": [
+        "es"
+      ]
+    },
+    "Australia": {
+      "numeric_code": 36,
+      "languages": [
+        "en"
+      ]
+    },
+    "Austria": {
+      "numeric_code": 40,
+      "languages": [
+        "de"
+      ]
+    },
+    "Belarus": {
+      "numeric_code": 112,
+      "languages": [
+        "ru"
+      ]
+    },
+    "Belgium": {
+      "numeric_code": 56,
+      "languages": [
+        "fr",
+        "de"
+      ]
+    },
+    "Bolivia": {
+      "numeric_code": 68,
+      "languages": [
+        "es"
+      ]
+    },
+    "Brazil": {
+      "numeric_code": 76,
+      "languages": [
+        "pt"
+      ]
+    },
+    "Burkina Faso": {
+      "numeric_code": 854,
+      "languages": [
+        "fr"
+      ]
+    },
+    "Canada": {
+      "numeric_code": 124,
+      "languages": [
+        "en",
+        "fr"
+      ]
+    },
+    "Chile": {
+      "numeric_code": 152,
+      "languages": [
+        "es"
+      ]
+    },
+    "China": {
+      "numeric_code": 156,
+      "languages": [
+        "zh-cn"
+      ]
+    },
+    "Colombia": {
+      "numeric_code": 170,
+      "languages": [
+        "es"
+      ]
+    },
+    "Ecuador": {
+      "numeric_code": 218,
+      "languages": [
+        "es"
+      ]
+    },
+    "Egypt": {
+      "numeric_code": 818,
+      "languages": [
+        "ar"
+      ]
+    },
+    "France": {
+      "numeric_code": 250,
+      "languages": [
+        "fr"
+      ]
+    },
+    "Germany": {
+      "numeric_code": 276,
+      "languages": [
+        "de"
+      ]
+    },
+    "Ghana": {
+      "numeric_code": 288,
+      "languages": [
+        "en"
+      ]
+    },
+    "Guatemala": {
+      "numeric_code": 320,
+      "languages": [
+        "es"
+      ]
+    },
+    "Haiti": {
+      "numeric_code": 332,
+      "languages": [
+        "fr"
+      ]
+    },
+    "Hong Kong": {
+      "numeric_code": 344,
+      "languages": [
+        "en",
+        "zh-cn",
+        "zh-hk"
+      ]
+    },
+    "Ireland": {
+      "numeric_code": 372,
+      "languages": [
+        "en"
+      ]
+    },
+    "Iraq": {
+      "numeric_code": 368,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Italy": {
+      "numeric_code": 380,
+      "languages": [
+        "it"
+      ]
+    },
+    "Japan": {
+      "numeric_code": 392,
+      "languages": [
+        "ja"
+      ]
+    },
+    "Jordan": {
+      "numeric_code": 400,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Kazakhstan": {
+      "numeric_code": 398,
+      "languages": [
+        "ru"
+      ]
+    },
+    "Kenya": {
+      "numeric_code": 404,
+      "languages": [
+        "en"
+      ]
+    },
+    "Korea, Republic of": {
+      "numeric_code": 410,
+      "languages": [
+        "ko"
+      ]
+    },
+    "Kuwait": {
+      "numeric_code": 414,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Kyrgyzstan": {
+      "numeric_code": 417,
+      "languages": [
+        "ru"
+      ]
+    },
+    "Lebanon": {
+      "numeric_code": 422,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Libya": {
+      "numeric_code": 434,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Luxembourg": {
+      "numeric_code": 442,
+      "languages": [
+        "fr",
+        "de"
+      ]
+    },
+    "Macao": {
+      "numeric_code": 446,
+      "languages": [
+        "zh-cn",
+        "pt"
+      ]
+    },
+    "Malaysia": {
+      "numeric_code": 458,
+      "languages": [
+        "en"
+      ]
+    },
+    "Mali": {
+      "numeric_code": 466,
+      "languages": [
+        "fr"
+      ]
+    },
+    "Malta": {
+      "numeric_code": 470,
+      "languages": [
+        "en"
+      ]
+    },
+    "Mexico": {
+      "numeric_code": 484,
+      "languages": [
+        "es"
+      ]
+    },
+    "Morocco": {
+      "numeric_code": 504,
+      "languages": [
+        "ar"
+      ]
+    },
+    "New Zealand": {
+      "numeric_code": 554,
+      "languages": [
+        "en"
+      ]
+    },
+    "Nicaragua": {
+      "numeric_code": 558,
+      "languages": [
+        "es"
+      ]
+    },
+    "Nigeria": {
+      "numeric_code": 566,
+      "languages": [
+        "en"
+      ]
+    },
+    "Pakistan": {
+      "numeric_code": 586,
+      "languages": [
+        "en"
+      ]
+    },
+    "Palestine": {
+      "numeric_code": 275,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Peru": {
+      "numeric_code": 604,
+      "languages": [
+        "es"
+      ]
+    },
+    "Philippines": {
+      "numeric_code": 608,
+      "languages": [
+        "en"
+      ]
+    },
+    "Portugal": {
+      "numeric_code": 620,
+      "languages": [
+        "pt"
+      ]
+    },
+    "Puerto Rico": {
+      "numeric_code": 630,
+      "languages": [
+        "es"
+      ]
+    },
+    "Qatar": {
+      "numeric_code": 634,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Russian Federation": {
+      "numeric_code": 643,
+      "languages": [
+        "ru"
+      ]
+    },
+    "Rwanda": {
+      "numeric_code": 646,
+      "languages": [
+        "en",
+        "fr"
+      ]
+    },
+    "Singapore": {
+      "numeric_code": 702,
+      "languages": [
+        "en",
+        "zh-cn"
+      ]
+    },
+    "South Africa": {
+      "numeric_code": 710,
+      "languages": [
+        "en"
+      ]
+    },
+    "Spain": {
+      "numeric_code": 724,
+      "languages": [
+        "es"
+      ]
+    },
+    "Switzerland": {
+      "numeric_code": 756,
+      "languages": [
+        "fr",
+        "de",
+        "it"
+      ]
+    },
+    "Taiwan, Province of China": {
+      "numeric_code": 158,
+      "languages": [
+        "zh-tw"
+      ]
+    },
+    "Trinidad and Tobago": {
+      "numeric_code": 780,
+      "languages": [
+        "en"
+      ]
+    },
+    "Tunisia": {
+      "numeric_code": 788,
+      "languages": [
+        "ar"
+      ]
+    },
+    "United Kingdom": {
+      "numeric_code": 826,
+      "languages": [
+        "en"
+      ]
+    },
+    "United States of America": {
+      "numeric_code": 840,
+      "languages": [
+        "en"
+      ]
+    },
+    "Uruguay": {
+      "numeric_code": 858,
+      "languages": [
+        "es"
+      ]
+    },
+    "Venezuela": {
+      "numeric_code": 862,
+      "languages": [
+        "es"
+      ]
+    },
+    "Yemen": {
+      "numeric_code": 887,
+      "languages": [
+        "ar"
+      ]
+    },
+    "Zambia": {
+      "numeric_code": 894,
+      "languages": [
+        "en"
+      ]
+    },
+    "Zimbabwe": {
+      "numeric_code": 716,
+      "languages": [
+        "en"
+      ]
+    }
+  },
+  "dimensions": {
+    "traditional_secular": {
+      "name": "Traditional vs. Secular-Rational Values",
+      "description": "Traditional values emphasize the importance of religion, parent-child ties, deference to authority and traditional family values. Secular-rational values have the opposite preferences to the traditional values.",
+      "questions": [
+        "A008",
+        "A165",
+        "E018",
+        "E025",
+        "Y002",
+        "Y003"
+      ]
+    },
+    "survival_expression": {
+      "name": "Survival vs. Self-Expression Values",
+      "description": "Survival values place relatively high priority on economic and physical security. Self-expression values give high priority to environmental protection, growing tolerance of foreigners, gays and lesbians and gender equality, and rising demands for participation in decision-making in economic and political life.",
+      "questions": [
+        "F063",
+        "F118",
+        "F120",
+        "G006"
+      ]
+    }
+  }
+}

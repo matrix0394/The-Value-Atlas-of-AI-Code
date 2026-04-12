@@ -1,0 +1,35 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Extracted Dryad data
+data/**/*.csv
+data/**/*.json
+data/**/*.pkl
+data/**/*.sav
+!data/README.md
+!data/raw/README.md
+!data/**/.gitkeep
+
+# Publication-ready supplementary source data extracted from Dryad
+Supplementary Materials/data/*.csv
+Supplementary Materials/data/*.json
+!Supplementary Materials/data/README.md
+!Supplementary Materials/data/.gitkeep
+
+# Generated figure outputs
+Supplementary Materials/figures/**/*.png
+Supplementary Materials/figures/**/*.pdf
+!Supplementary Materials/figures/README.md
+!Supplementary Materials/figures/**/.gitkeep
+
+# Generated analysis outputs
+results/analysis/*.csv
+results/analysis/*.json
+results/paper_data/*.csv
+results/figures/paper/*.png
+results/figures/paper/*.pdf
+results/figures/regression_data_v4.csv
+!results/README.md
+!results/figures/README.md
+!results/**/.gitkeep

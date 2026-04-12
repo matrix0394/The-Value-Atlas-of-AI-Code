@@ -1,0 +1,1514 @@
+[
+  {
+    "Country":"Afghanistan",
+    "Numeric":4,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Albania",
+    "Numeric":8,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Antarctica",
+    "Numeric":10,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Algeria",
+    "Numeric":12,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"American Samoa",
+    "Numeric":16,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Andorra",
+    "Numeric":20,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Angola",
+    "Numeric":24,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Antigua and Barbuda",
+    "Numeric":28,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Azerbaijan",
+    "Numeric":31,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Argentina",
+    "Numeric":32,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Australia",
+    "Numeric":36,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Austria",
+    "Numeric":40,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Bahamas (the)",
+    "Numeric":44,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bahrain",
+    "Numeric":48,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bangladesh",
+    "Numeric":50,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Armenia",
+    "Numeric":51,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Barbados",
+    "Numeric":52,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Belgium",
+    "Numeric":56,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Bermuda",
+    "Numeric":60,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bhutan",
+    "Numeric":64,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bolivia (Plurinational State of)",
+    "Numeric":68,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Bosnia and Herzegovina",
+    "Numeric":70,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":true
+  },
+  {
+    "Country":"Botswana",
+    "Numeric":72,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bouvet Island",
+    "Numeric":74,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Brazil",
+    "Numeric":76,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Belize",
+    "Numeric":84,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"British Indian Ocean Territory (the)",
+    "Numeric":86,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Solomon Islands",
+    "Numeric":90,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Virgin Islands (British)",
+    "Numeric":92,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Brunei Darussalam",
+    "Numeric":96,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bulgaria",
+    "Numeric":100,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Myanmar",
+    "Numeric":104,
+    "Cultural Region":"West & South Asia",
+    "Islamic":true
+  },
+  {
+    "Country":"Burundi",
+    "Numeric":108,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Belarus",
+    "Numeric":112,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Cambodia",
+    "Numeric":116,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Cameroon",
+    "Numeric":120,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Canada",
+    "Numeric":124,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Cabo Verde",
+    "Numeric":132,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Cayman Islands (the)",
+    "Numeric":136,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Central African Republic (the)",
+    "Numeric":140,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sri Lanka",
+    "Numeric":144,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Chad",
+    "Numeric":148,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Chile",
+    "Numeric":152,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"China",
+    "Numeric":156,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Taiwan (Province of China)",
+    "Numeric":158,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Christmas Island",
+    "Numeric":162,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Cocos (Keeling) Islands (the)",
+    "Numeric":166,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Colombia",
+    "Numeric":170,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Comoros (the)",
+    "Numeric":174,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Mayotte",
+    "Numeric":175,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Congo (the)",
+    "Numeric":178,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Congo (the Democratic Republic of the)",
+    "Numeric":180,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Cook Islands (the)",
+    "Numeric":184,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Costa Rica",
+    "Numeric":188,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Croatia",
+    "Numeric":191,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Cuba",
+    "Numeric":192,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Cyprus",
+    "Numeric":196,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Northern Cyprus",
+    "Numeric":197,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Czechia",
+    "Numeric":203,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Benin",
+    "Numeric":204,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Denmark",
+    "Numeric":208,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Dominica",
+    "Numeric":212,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Dominican Republic (the)",
+    "Numeric":214,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Ecuador",
+    "Numeric":218,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"El Salvador",
+    "Numeric":222,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Equatorial Guinea",
+    "Numeric":226,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Ethiopia",
+    "Numeric":231,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Eritrea",
+    "Numeric":232,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Estonia",
+    "Numeric":233,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Faroe Islands (the)",
+    "Numeric":234,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Falkland Islands (the) [Malvinas]",
+    "Numeric":238,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"South Georgia and the South Sandwich Islands",
+    "Numeric":239,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Fiji",
+    "Numeric":242,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Finland",
+    "Numeric":246,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Åland Islands",
+    "Numeric":248,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"France",
+    "Numeric":250,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"French Guiana",
+    "Numeric":254,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"French Polynesia",
+    "Numeric":258,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"French Southern Territories (the)",
+    "Numeric":260,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Djibouti",
+    "Numeric":262,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Gabon",
+    "Numeric":266,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Georgia",
+    "Numeric":268,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Gambia (the)",
+    "Numeric":270,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Palestine, State of",
+    "Numeric":275,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"Germany",
+    "Numeric":276,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Ghana",
+    "Numeric":288,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Gibraltar",
+    "Numeric":292,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Kiribati",
+    "Numeric":296,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Greece",
+    "Numeric":300,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Greenland",
+    "Numeric":304,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Grenada",
+    "Numeric":308,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Guadeloupe",
+    "Numeric":312,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Guam",
+    "Numeric":316,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Guatemala",
+    "Numeric":320,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Guinea",
+    "Numeric":324,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Guyana",
+    "Numeric":328,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Haiti",
+    "Numeric":332,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Heard Island and McDonald Islands",
+    "Numeric":334,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Holy See (the)",
+    "Numeric":336,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Honduras",
+    "Numeric":340,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Hong Kong",
+    "Numeric":344,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Hungary",
+    "Numeric":348,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Iceland",
+    "Numeric":352,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"India",
+    "Numeric":356,
+    "Cultural Region":"West & South Asia",
+    "Islamic":false
+  },
+  {
+    "Country":"Indonesia",
+    "Numeric":360,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Iran (Islamic Republic of)",
+    "Numeric":364,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"Iraq",
+    "Numeric":368,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Ireland",
+    "Numeric":372,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Israel",
+    "Numeric":376,
+    "Cultural Region":"West & South Asia",
+    "Islamic":false
+  },
+  {
+    "Country":"Italy",
+    "Numeric":380,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Côte d'Ivoire",
+    "Numeric":384,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Jamaica",
+    "Numeric":388,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Japan",
+    "Numeric":392,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Kazakhstan",
+    "Numeric":398,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Jordan",
+    "Numeric":400,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Kenya",
+    "Numeric":404,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Korea (the Democratic People's Republic of)",
+    "Numeric":408,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Korea (the Republic of)",
+    "Numeric":410,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Kuwait",
+    "Numeric":414,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Kyrgyzstan",
+    "Numeric":417,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Lao People's Democratic Republic (the)",
+    "Numeric":418,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Lebanon",
+    "Numeric":422,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Lesotho",
+    "Numeric":426,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Latvia",
+    "Numeric":428,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Liberia",
+    "Numeric":430,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Libya",
+    "Numeric":434,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Liechtenstein",
+    "Numeric":438,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Lithuania",
+    "Numeric":440,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Luxembourg",
+    "Numeric":442,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Macao",
+    "Numeric":446,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Madagascar",
+    "Numeric":450,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Malawi",
+    "Numeric":454,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Malaysia",
+    "Numeric":458,
+    "Cultural Region":"West & South Asia",
+    "Islamic":true
+  },
+  {
+    "Country":"Maldives",
+    "Numeric":462,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Mali",
+    "Numeric":466,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Malta",
+    "Numeric":470,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Martinique",
+    "Numeric":474,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Mauritania",
+    "Numeric":478,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Mauritius",
+    "Numeric":480,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Mexico",
+    "Numeric":484,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Monaco",
+    "Numeric":492,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Mongolia",
+    "Numeric":496,
+    "Cultural Region":"Confucian",
+    "Islamic":false
+  },
+  {
+    "Country":"Moldova (the Republic of)",
+    "Numeric":498,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Montenegro",
+    "Numeric":499,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Montserrat",
+    "Numeric":500,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Morocco",
+    "Numeric":504,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Mozambique",
+    "Numeric":508,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Oman",
+    "Numeric":512,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Namibia",
+    "Numeric":516,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Nauru",
+    "Numeric":520,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Nepal",
+    "Numeric":524,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Netherlands (the)",
+    "Numeric":528,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Curaçao",
+    "Numeric":531,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Aruba",
+    "Numeric":533,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sint Maarten (Dutch part)",
+    "Numeric":534,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Bonaire, Sint Eustatius and Saba",
+    "Numeric":535,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"New Caledonia",
+    "Numeric":540,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Vanuatu",
+    "Numeric":548,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"New Zealand",
+    "Numeric":554,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Nicaragua",
+    "Numeric":558,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Niger (the)",
+    "Numeric":562,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Nigeria",
+    "Numeric":566,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Niue",
+    "Numeric":570,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Norfolk Island",
+    "Numeric":574,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Norway",
+    "Numeric":578,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Northern Mariana Islands (the)",
+    "Numeric":580,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"United States Minor Outlying Islands (the)",
+    "Numeric":581,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Micronesia (Federated States of)",
+    "Numeric":583,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Marshall Islands (the)",
+    "Numeric":584,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Palau",
+    "Numeric":585,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Pakistan",
+    "Numeric":586,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Panama",
+    "Numeric":591,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Papua New Guinea",
+    "Numeric":598,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Paraguay",
+    "Numeric":600,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Peru",
+    "Numeric":604,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Philippines (the)",
+    "Numeric":608,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Pitcairn",
+    "Numeric":612,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Poland",
+    "Numeric":616,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Portugal",
+    "Numeric":620,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Guinea-Bissau",
+    "Numeric":624,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Timor-Leste",
+    "Numeric":626,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Puerto Rico",
+    "Numeric":630,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Qatar",
+    "Numeric":634,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Réunion",
+    "Numeric":638,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Romania",
+    "Numeric":642,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Russian Federation (the)",
+    "Numeric":643,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Rwanda",
+    "Numeric":646,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Saint Barthélemy",
+    "Numeric":652,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Helena, Ascension and Tristan da Cunha",
+    "Numeric":654,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Kitts and Nevis",
+    "Numeric":659,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Anguilla",
+    "Numeric":660,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Lucia",
+    "Numeric":662,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Martin (French part)",
+    "Numeric":663,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Pierre and Miquelon",
+    "Numeric":666,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saint Vincent and the Grenadines",
+    "Numeric":670,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"San Marino",
+    "Numeric":674,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sao Tome and Principe",
+    "Numeric":678,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Saudi Arabia",
+    "Numeric":682,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"Senegal",
+    "Numeric":686,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Serbia",
+    "Numeric":688,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Seychelles",
+    "Numeric":690,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sierra Leone",
+    "Numeric":694,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Singapore",
+    "Numeric":702,
+    "Cultural Region":"West & South Asia",
+    "Islamic":false
+  },
+  {
+    "Country":"Slovakia",
+    "Numeric":703,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Viet Nam",
+    "Numeric":704,
+    "Cultural Region":"West & South Asia",
+    "Islamic":false
+  },
+  {
+    "Country":"Slovenia",
+    "Numeric":705,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Somalia",
+    "Numeric":706,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"South Africa",
+    "Numeric":710,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"Zimbabwe",
+    "Numeric":716,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Spain",
+    "Numeric":724,
+    "Cultural Region":"Catholic Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"South Sudan",
+    "Numeric":728,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sudan (the)",
+    "Numeric":729,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Western Sahara",
+    "Numeric":732,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Suriname",
+    "Numeric":740,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Svalbard and Jan Mayen",
+    "Numeric":744,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Eswatini",
+    "Numeric":748,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Sweden",
+    "Numeric":752,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Switzerland",
+    "Numeric":756,
+    "Cultural Region":"Protestant Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Syrian Arab Republic",
+    "Numeric":760,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tajikistan",
+    "Numeric":762,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Thailand",
+    "Numeric":764,
+    "Cultural Region":"West & South Asia",
+    "Islamic":false
+  },
+  {
+    "Country":"Togo",
+    "Numeric":768,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tokelau",
+    "Numeric":772,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tonga",
+    "Numeric":776,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Trinidad and Tobago",
+    "Numeric":780,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"United Arab Emirates (the)",
+    "Numeric":784,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tunisia",
+    "Numeric":788,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Turkey",
+    "Numeric":792,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Turkmenistan",
+    "Numeric":795,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Turks and Caicos Islands (the)",
+    "Numeric":796,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tuvalu",
+    "Numeric":798,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Uganda",
+    "Numeric":800,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"Ukraine",
+    "Numeric":804,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Republic of North Macedonia",
+    "Numeric":807,
+    "Cultural Region":"Orthodox Europe",
+    "Islamic":false
+  },
+  {
+    "Country":"Egypt",
+    "Numeric":818,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"United Kingdom of Great Britain and Northern Ireland (the)",
+    "Numeric":826,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Guernsey",
+    "Numeric":831,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Jersey",
+    "Numeric":832,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Isle of Man",
+    "Numeric":833,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Tanzania, United Republic of",
+    "Numeric":834,
+    "Cultural Region":"African-Islamic",
+    "Islamic":false
+  },
+  {
+    "Country":"United States of America (the)",
+    "Numeric":840,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Virgin Islands (U.S.)",
+    "Numeric":850,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Burkina Faso",
+    "Numeric":854,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Uruguay",
+    "Numeric":858,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Uzbekistan",
+    "Numeric":860,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Venezuela (Bolivarian Republic of)",
+    "Numeric":862,
+    "Cultural Region":"Latin America",
+    "Islamic":false
+  },
+  {
+    "Country":"Wallis and Futuna",
+    "Numeric":876,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Samoa",
+    "Numeric":882,
+    "Cultural Region":"Other",
+    "Islamic":false
+  },
+  {
+    "Country":"Yemen",
+    "Numeric":887,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Zambia",
+    "Numeric":894,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  },
+  {
+    "Country":"Northern Ireland",
+    "Numeric":909,
+    "Cultural Region":"English-Speaking",
+    "Islamic":false
+  },
+  {
+    "Country":"Kosovo",
+    "Numeric":915,
+    "Cultural Region":"African-Islamic",
+    "Islamic":true
+  }
+]
