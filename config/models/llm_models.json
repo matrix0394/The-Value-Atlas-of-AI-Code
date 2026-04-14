@@ -1,36 +1,36 @@
 {
   "models": {
     "gpt-4o": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "OpenAI",
       "region": "US",
       "display_name": "GPT-4o"
     },
     "gpt-4o-mini": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "OpenAI",
       "region": "US",
       "display_name": "GPT-4o-mini"
     },
     "claude-3-7-sonnet-20250219": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "Anthropic",
       "region": "US",
       "display_name": "Claude 3.7 Sonnet"
     },
     "deepseek-chat": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "DeepSeek",
       "region": "CN",
       "display_name": "DeepSeek V3 0324"
     },
     "kimi-k2": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "Moonshot",
       "region": "CN",
       "display_name": "Kimi-K2"
@@ -134,8 +134,8 @@
       "display_name": "Gemini 2.5 Pro (OpenRouter)"
     },
     "doubao-1-5-pro-32k-250115": {
-      "api_key": "OPENKEY_API_KEY",
-      "base_url": "https://openkey.cloud/v1",
+      "api_key": "OPENROUTER_API_KEY",
+      "base_url": "https://openrouter.ai/api/v1",
       "provider": "Doubao",
       "region": "CN",
       "display_name": "Doubao-1-5-pro-32k"

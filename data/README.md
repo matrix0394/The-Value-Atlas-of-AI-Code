@@ -1,26 +1,46 @@
-This directory is intentionally kept lightweight in the GitHub repository.
+## `data/` Directory
 
-The processed datasets needed by the code are expected to be supplied from the
-Dryad archive and placed into the same relative paths shown below:
+This directory contains the processed analysis inputs expected by the cleaned
+GitHub code repository.
+
+### Subdirectories
 
 - `country_values/`
-  Fixed IVS benchmark coordinates and the saved PCA model.
+  Fixed benchmark coordinates and the frozen PCA model used for projection.
 - `external/`
-  Upstream regression covariates (`regression_covariates.csv`).
+  Country-level regression covariates used to regenerate the publication-ready
+  regression table.
 - `llm_interviews/intrinsic/`
-  Cached intrinsic multilingual LLM answers and derived IVS-format tables.
+  Released processed intrinsic interview tables.
 - `llm_interviews/multilingual/`
-  Cached multilingual country-roleplay answers and derived IVS-format tables.
+  Released processed multilingual roleplay interview tables.
 - `llm_pca/`
-  Precomputed intrinsic and roleplay PCA coordinate tables.
+  Precomputed intrinsic and roleplay coordinate tables.
 - `raw/`
-  Optional compatibility location for the raw IVS `.sav` file.
+  Placeholder only; the raw IVS `.sav` file is not included in this public
+  package.
 
-In the original working project, the raw IVS file was commonly stored under:
+### File formats
 
-- `country_values/Integrated_values_surveys_1981-2022.sav`
+- `.csv`
+  Tabular analysis inputs.
+- `.json`
+  Structured metadata and processed tables.
+- `.pkl`
+  Serialized Python objects used by the accompanying analysis code.
 
-The cleaned repository accepts both:
+Pickle files can be sensitive to library versions, especially across different
+`pandas` and `scikit-learn` releases. They are most reliably used with the
+accompanying code repository and its documented Python environment.
 
-- `data/country_values/Integrated_values_surveys_1981-2022.sav`
-- `data/raw/Integrated_values_surveys_1981-2022.sav`
+### Notes
+
+When benchmark reconstruction from raw survey data is needed, the IVS `.sav`
+input should be recreated from the official EVS Trend File 1981-2017 (Version
+`3.0.0`; DOI `10.4232/1.14021`) and the WVS Trend File 1981-2022 (Version
+`4.1.0`; DOI `10.14281/18241.27`).
+
+This public archive does not include the full `interview_raw/` API-response
+caches. Those caches were used during private data collection, but they are not
+required to reproduce the paper results from the released processed tables and
+projected coordinates.
